@@ -1,0 +1,1001 @@
+
+time="2025-07-16T15:10:16-03:00" level=warning msg="/home/rinha-user/rinha-de-backend-2025/participantes/ryangst-bun/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+ worker Pulling 
+ redis Pulling 
+ api Pulling 
+ traefik Pulling 
+ mongodb Pulling 
+ api-2 Pulling 
+ 35d697fe2738 Pulling fs layer 
+ bfb59b82a9b6 Pulling fs layer 
+ 4eff9a62d888 Pulling fs layer 
+ a62778643d56 Pulling fs layer 
+ 7c12895b777b Pulling fs layer 
+ 3214acf345c0 Pulling fs layer 
+ 5664b15f108b Pulling fs layer 
+ 0bab15eea81d Pulling fs layer 
+ 4aa0ea1413d3 Pulling fs layer 
+ da7816fa955e Pulling fs layer 
+ ddf74a63f7d8 Pulling fs layer 
+ d00c3209d929 Pulling fs layer 
+ c1e595f74d52 Pulling fs layer 
+ b4e86264483b Pulling fs layer 
+ da5b118382bf Pulling fs layer 
+ 7c12895b777b Waiting 
+ 4aa0ea1413d3 Waiting 
+ 3214acf345c0 Waiting 
+ da7816fa955e Waiting 
+ ddf74a63f7d8 Waiting 
+ 5664b15f108b Waiting 
+ d00c3209d929 Waiting 
+ c1e595f74d52 Waiting 
+ 0bab15eea81d Waiting 
+ b4e86264483b Waiting 
+ da5b118382bf Waiting 
+ a62778643d56 Waiting 
+ redis Pulled 
+ 35d697fe2738 Pulling fs layer 
+ bfb59b82a9b6 Pulling fs layer 
+ 4eff9a62d888 Pulling fs layer 
+ a62778643d56 Pulling fs layer 
+ 7c12895b777b Pulling fs layer 
+ 3214acf345c0 Pulling fs layer 
+ 5664b15f108b Pulling fs layer 
+ 0bab15eea81d Pulling fs layer 
+ 4aa0ea1413d3 Pulling fs layer 
+ da7816fa955e Pulling fs layer 
+ ddf74a63f7d8 Pulling fs layer 
+ d00c3209d929 Pulling fs layer 
+ c1e595f74d52 Pulling fs layer 
+ b4e86264483b Pulling fs layer 
+ da5b118382bf Pulling fs layer 
+ 0bab15eea81d Waiting 
+ a62778643d56 Waiting 
+ 7c12895b777b Waiting 
+ da5b118382bf Waiting 
+ 3214acf345c0 Waiting 
+ 5664b15f108b Waiting 
+ 4aa0ea1413d3 Waiting 
+ c1e595f74d52 Waiting 
+ d00c3209d929 Waiting 
+ b4e86264483b Waiting 
+ da7816fa955e Waiting 
+ ddf74a63f7d8 Waiting 
+ 4eff9a62d888 Downloading [>                                                  ]  5.512kB/547.6kB
+ 4eff9a62d888 Downloading [>                                                  ]  5.512kB/547.6kB
+ bfb59b82a9b6 Downloading [=====>                                             ]  1.378kB/13.36kB
+ bfb59b82a9b6 Downloading [=====>                                             ]  1.378kB/13.36kB
+ bfb59b82a9b6 Downloading [==================================================>]  13.36kB/13.36kB
+ bfb59b82a9b6 Verifying Checksum 
+ bfb59b82a9b6 Download complete 
+ bfb59b82a9b6 Verifying Checksum 
+ bfb59b82a9b6 Download complete 
+ 35d697fe2738 Downloading [=======>                                           ]  16.38kB/104.2kB
+ 35d697fe2738 Downloading [=======>                                           ]  16.38kB/104.2kB
+ 35d697fe2738 Downloading [==================================================>]  104.2kB/104.2kB
+ 35d697fe2738 Verifying Checksum 
+ 35d697fe2738 Download complete 
+ 35d697fe2738 Downloading [==================================================>]  104.2kB/104.2kB
+ 35d697fe2738 Verifying Checksum 
+ 35d697fe2738 Download complete 
+ 35d697fe2738 Extracting [===============>                                   ]  32.77kB/104.2kB
+ 35d697fe2738 Extracting [===============>                                   ]  32.77kB/104.2kB
+ 35d697fe2738 Extracting [==================================================>]  104.2kB/104.2kB
+ 35d697fe2738 Extracting [==================================================>]  104.2kB/104.2kB
+ 4eff9a62d888 Download complete 
+ 4eff9a62d888 Download complete 
+ 35d697fe2738 Pulling fs layer 
+ bfb59b82a9b6 Pulling fs layer 
+ 4eff9a62d888 Pulling fs layer 
+ a62778643d56 Pulling fs layer 
+ 7c12895b777b Pulling fs layer 
+ 3214acf345c0 Pulling fs layer 
+ 5664b15f108b Pulling fs layer 
+ 0bab15eea81d Pulling fs layer 
+ 4aa0ea1413d3 Pulling fs layer 
+ da7816fa955e Pulling fs layer 
+ ddf74a63f7d8 Pulling fs layer 
+ d00c3209d929 Pulling fs layer 
+ 7c12895b777b Waiting 
+ c1e595f74d52 Pulling fs layer 
+ b4e86264483b Pulling fs layer 
+ 9b42699f2ec7 Pulling fs layer 
+ 3214acf345c0 Waiting 
+ 5664b15f108b Waiting 
+ 0bab15eea81d Waiting 
+ 4aa0ea1413d3 Waiting 
+ da7816fa955e Waiting 
+ ddf74a63f7d8 Waiting 
+ d00c3209d929 Waiting 
+ c1e595f74d52 Waiting 
+ b4e86264483b Waiting 
+ 9b42699f2ec7 Waiting 
+ bfb59b82a9b6 Download complete 
+ 35d697fe2738 Extracting [==================================================>]  104.2kB/104.2kB
+ 4eff9a62d888 Download complete 
+ a62778643d56 Waiting 
+ 35d697fe2738 Pull complete 
+ 35d697fe2738 Pull complete 
+ 35d697fe2738 Pull complete 
+ bfb59b82a9b6 Extracting [==================================================>]  13.36kB/13.36kB
+ bfb59b82a9b6 Extracting [==================================================>]  13.36kB/13.36kB
+ bfb59b82a9b6 Extracting [==================================================>]  13.36kB/13.36kB
+ bfb59b82a9b6 Extracting [==================================================>]  13.36kB/13.36kB
+ bfb59b82a9b6 Extracting [==================================================>]  13.36kB/13.36kB
+ bfb59b82a9b6 Extracting [==================================================>]  13.36kB/13.36kB
+ bfb59b82a9b6 Pull complete 
+ bfb59b82a9b6 Pull complete 
+ bfb59b82a9b6 Pull complete 
+ 4eff9a62d888 Extracting [==>                                                ]  32.77kB/547.6kB
+ 4eff9a62d888 Extracting [==>                                                ]  32.77kB/547.6kB
+ 4eff9a62d888 Extracting [==>                                                ]  32.77kB/547.6kB
+ a62778643d56 Verifying Checksum 
+ a62778643d56 Download complete 
+ a62778643d56 Downloading [==================================================>]      67B/67B
+ a62778643d56 Download complete 
+ a62778643d56 Downloading [==================================================>]      67B/67B
+ a62778643d56 Verifying Checksum 
+ a62778643d56 Download complete 
+ 7c12895b777b Downloading [==================================================>]     188B/188B
+ 7c12895b777b Downloading [==================================================>]     188B/188B
+ 7c12895b777b Downloading [==================================================>]     188B/188B
+ 7c12895b777b Verifying Checksum 
+ 7c12895b777b Verifying Checksum 
+ 7c12895b777b Verifying Checksum 
+ 7c12895b777b Download complete 
+ 7c12895b777b Download complete 
+ 7c12895b777b Download complete 
+ 3214acf345c0 Downloading [==================================================>]     123B/123B
+ 3214acf345c0 Downloading [==================================================>]     123B/123B
+ 3214acf345c0 Downloading [==================================================>]     123B/123B
+ 3214acf345c0 Verifying Checksum 
+ 3214acf345c0 Verifying Checksum 
+ 3214acf345c0 Verifying Checksum 
+ 3214acf345c0 Download complete 
+ 3214acf345c0 Download complete 
+ 3214acf345c0 Download complete 
+ 619be1103602 Pulling fs layer 
+ 987f790ee143 Pulling fs layer 
+ c6d80f829c66 Pulling fs layer 
+ 5300d181735b Pulling fs layer 
+ 619be1103602 Waiting 
+ 987f790ee143 Waiting 
+ c6d80f829c66 Waiting 
+ 5300d181735b Waiting 
+ 1d387567261e Pulling fs layer 
+ ac17c9c722ac Pulling fs layer 
+ ac8d0b5b0efd Pulling fs layer 
+ 11fa75efc526 Pulling fs layer 
+ 9cebba5a6e24 Pulling fs layer 
+ 4fd97b26379a Pulling fs layer 
+ b73a47e8198a Pulling fs layer 
+ 27520d77dbc5 Pulling fs layer 
+ 11fa75efc526 Waiting 
+ 9cebba5a6e24 Waiting 
+ 4fd97b26379a Waiting 
+ b73a47e8198a Waiting 
+ 27520d77dbc5 Waiting 
+ 1d387567261e Waiting 
+ ac17c9c722ac Waiting 
+ ac8d0b5b0efd Waiting 
+ 4eff9a62d888 Extracting [======================================>            ]    426kB/547.6kB
+ 4eff9a62d888 Extracting [======================================>            ]    426kB/547.6kB
+ 4eff9a62d888 Extracting [======================================>            ]    426kB/547.6kB
+ 4eff9a62d888 Extracting [==================================================>]  547.6kB/547.6kB
+ 4eff9a62d888 Extracting [==================================================>]  547.6kB/547.6kB
+ 4eff9a62d888 Extracting [==================================================>]  547.6kB/547.6kB
+ 5664b15f108b Downloading [==================================================>]     168B/168B
+ 5664b15f108b Downloading [==================================================>]     168B/168B
+ 5664b15f108b Verifying Checksum 
+ 5664b15f108b Verifying Checksum 
+ 5664b15f108b Download complete 
+ 5664b15f108b Download complete 
+ 5664b15f108b Downloading [==================================================>]     168B/168B
+ 5664b15f108b Verifying Checksum 
+ 5664b15f108b Download complete 
+ 0bab15eea81d Downloading [==================================================>]      93B/93B
+ 0bab15eea81d Downloading [==================================================>]      93B/93B
+ 0bab15eea81d Verifying Checksum 
+ 0bab15eea81d Verifying Checksum 
+ 0bab15eea81d Downloading [==================================================>]      93B/93B
+ 0bab15eea81d Verifying Checksum 
+ 0bab15eea81d Download complete 
+ 0bab15eea81d Download complete 
+ 0bab15eea81d Download complete 
+ 4eff9a62d888 Extracting [==================================================>]  547.6kB/547.6kB
+ 4eff9a62d888 Extracting [==================================================>]  547.6kB/547.6kB
+ 4eff9a62d888 Extracting [==================================================>]  547.6kB/547.6kB
+ 4aa0ea1413d3 Downloading [==================================================>]     385B/385B
+ 4aa0ea1413d3 Verifying Checksum 
+ 4aa0ea1413d3 Download complete 
+ 4aa0ea1413d3 Verifying Checksum 
+ 4aa0ea1413d3 Download complete 
+ 4aa0ea1413d3 Verifying Checksum 
+ 4aa0ea1413d3 Download complete 
+ 4eff9a62d888 Pull complete 
+ 4eff9a62d888 Pull complete 
+ 4eff9a62d888 Pull complete 
+ a62778643d56 Extracting [==================================================>]      67B/67B
+ ddf74a63f7d8 Downloading [>                                                  ]  1.378kB/131.9kB
+ ddf74a63f7d8 Downloading [>                                                  ]  1.378kB/131.9kB
+ ddf74a63f7d8 Downloading [>                                                  ]  1.378kB/131.9kB
+ a62778643d56 Extracting [==================================================>]      67B/67B
+ a62778643d56 Extracting [==================================================>]      67B/67B
+ a62778643d56 Extracting [==================================================>]      67B/67B
+ a62778643d56 Extracting [==================================================>]      67B/67B
+ a62778643d56 Extracting [==================================================>]      67B/67B
+ ddf74a63f7d8 Verifying Checksum 
+ ddf74a63f7d8 Download complete 
+ ddf74a63f7d8 Verifying Checksum 
+ ddf74a63f7d8 Download complete 
+ ddf74a63f7d8 Verifying Checksum 
+ ddf74a63f7d8 Download complete 
+ da7816fa955e Verifying Checksum 
+ da7816fa955e Download complete 
+ da7816fa955e Downloading [==================================================>]     321B/321B
+ da7816fa955e Verifying Checksum 
+ da7816fa955e Download complete 
+ da7816fa955e Downloading [==================================================>]     321B/321B
+ da7816fa955e Verifying Checksum 
+ da7816fa955e Download complete 
+ a62778643d56 Pull complete 
+ a62778643d56 Pull complete 
+ a62778643d56 Pull complete 
+ 7c12895b777b Extracting [==================================================>]     188B/188B
+ 7c12895b777b Extracting [==================================================>]     188B/188B
+ 7c12895b777b Extracting [==================================================>]     188B/188B
+ 7c12895b777b Extracting [==================================================>]     188B/188B
+ 7c12895b777b Extracting [==================================================>]     188B/188B
+ 7c12895b777b Extracting [==================================================>]     188B/188B
+ d00c3209d929 Downloading [>                                                  ]  65.54kB/5.83MB
+ d00c3209d929 Downloading [>                                                  ]  65.54kB/5.83MB
+ d00c3209d929 Downloading [>                                                  ]  65.54kB/5.83MB
+ 7c12895b777b Pull complete 
+ 7c12895b777b Pull complete 
+ 7c12895b777b Pull complete 
+ 3214acf345c0 Extracting [==================================================>]     123B/123B
+ 3214acf345c0 Extracting [==================================================>]     123B/123B
+ 3214acf345c0 Extracting [==================================================>]     123B/123B
+ 3214acf345c0 Extracting [==================================================>]     123B/123B
+ 3214acf345c0 Extracting [==================================================>]     123B/123B
+ 3214acf345c0 Extracting [==================================================>]     123B/123B
+ 3214acf345c0 Pull complete 
+ 3214acf345c0 Pull complete 
+ 3214acf345c0 Pull complete 
+ 5664b15f108b Extracting [==================================================>]     168B/168B
+ 5664b15f108b Extracting [==================================================>]     168B/168B
+ 5664b15f108b Extracting [==================================================>]     168B/168B
+ 5664b15f108b Extracting [==================================================>]     168B/168B
+ 5664b15f108b Extracting [==================================================>]     168B/168B
+ 5664b15f108b Extracting [==================================================>]     168B/168B
+ d00c3209d929 Downloading [=========================================>         ]  4.829MB/5.83MB
+ d00c3209d929 Downloading [=========================================>         ]  4.829MB/5.83MB
+ d00c3209d929 Downloading [=========================================>         ]  4.829MB/5.83MB
+ d00c3209d929 Verifying Checksum 
+ d00c3209d929 Download complete 
+ d00c3209d929 Verifying Checksum 
+ d00c3209d929 Download complete 
+ d00c3209d929 Verifying Checksum 
+ d00c3209d929 Download complete 
+ 5664b15f108b Pull complete 
+ 5664b15f108b Pull complete 
+ 5664b15f108b Pull complete 
+ c1e595f74d52 Downloading [>                                                  ]   31.7kB/2.826MB
+ c1e595f74d52 Downloading [>                                                  ]   31.7kB/2.826MB
+ c1e595f74d52 Downloading [>                                                  ]   31.7kB/2.826MB
+ 0bab15eea81d Extracting [==================================================>]      93B/93B
+ 0bab15eea81d Extracting [==================================================>]      93B/93B
+ 0bab15eea81d Extracting [==================================================>]      93B/93B
+ 0bab15eea81d Extracting [==================================================>]      93B/93B
+ 0bab15eea81d Extracting [==================================================>]      93B/93B
+ 0bab15eea81d Extracting [==================================================>]      93B/93B
+ c1e595f74d52 Verifying Checksum 
+ c1e595f74d52 Download complete 
+ c1e595f74d52 Verifying Checksum 
+ c1e595f74d52 Download complete 
+ c1e595f74d52 Verifying Checksum 
+ c1e595f74d52 Download complete 
+ 0bab15eea81d Pull complete 
+ 0bab15eea81d Pull complete 
+ 0bab15eea81d Pull complete 
+ 4aa0ea1413d3 Extracting [==================================================>]     385B/385B
+ 4aa0ea1413d3 Extracting [==================================================>]     385B/385B
+ 4aa0ea1413d3 Extracting [==================================================>]     385B/385B
+ 4aa0ea1413d3 Extracting [==================================================>]     385B/385B
+ 4aa0ea1413d3 Extracting [==================================================>]     385B/385B
+ 4aa0ea1413d3 Extracting [==================================================>]     385B/385B
+ 4aa0ea1413d3 Pull complete 
+ 4aa0ea1413d3 Pull complete 
+ 4aa0ea1413d3 Pull complete 
+ b4e86264483b Download complete 
+ b4e86264483b Downloading [==================================================>]      92B/92B
+ b4e86264483b Download complete 
+ b4e86264483b Downloading [==================================================>]      92B/92B
+ b4e86264483b Download complete 
+ da7816fa955e Extracting [==================================================>]     321B/321B
+ da7816fa955e Extracting [==================================================>]     321B/321B
+ da7816fa955e Extracting [==================================================>]     321B/321B
+ da7816fa955e Extracting [==================================================>]     321B/321B
+ da7816fa955e Extracting [==================================================>]     321B/321B
+ da7816fa955e Extracting [==================================================>]     321B/321B
+ da7816fa955e Pull complete 
+ da7816fa955e Pull complete 
+ da7816fa955e Pull complete 
+ ddf74a63f7d8 Extracting [============>                                      ]  32.77kB/131.9kB
+ ddf74a63f7d8 Extracting [============>                                      ]  32.77kB/131.9kB
+ ddf74a63f7d8 Extracting [============>                                      ]  32.77kB/131.9kB
+ ddf74a63f7d8 Extracting [==================================================>]  131.9kB/131.9kB
+ ddf74a63f7d8 Extracting [==================================================>]  131.9kB/131.9kB
+ ddf74a63f7d8 Extracting [==================================================>]  131.9kB/131.9kB
+ ddf74a63f7d8 Pull complete 
+ ddf74a63f7d8 Pull complete 
+ ddf74a63f7d8 Pull complete 
+ d00c3209d929 Extracting [>                                                  ]  65.54kB/5.83MB
+ d00c3209d929 Extracting [>                                                  ]  65.54kB/5.83MB
+ d00c3209d929 Extracting [>                                                  ]  65.54kB/5.83MB
+ da5b118382bf Downloading [>                                                  ]  408.4kB/40.07MB
+ da5b118382bf Downloading [>                                                  ]  408.4kB/40.07MB
+ d00c3209d929 Extracting [===================================>               ]  4.194MB/5.83MB
+ d00c3209d929 Extracting [===================================>               ]  4.194MB/5.83MB
+ d00c3209d929 Extracting [===================================>               ]  4.194MB/5.83MB
+ d00c3209d929 Extracting [==================================================>]   5.83MB/5.83MB
+ d00c3209d929 Extracting [==================================================>]   5.83MB/5.83MB
+ d00c3209d929 Extracting [==================================================>]   5.83MB/5.83MB
+ d00c3209d929 Extracting [==================================================>]   5.83MB/5.83MB
+ d00c3209d929 Extracting [==================================================>]   5.83MB/5.83MB
+ d00c3209d929 Extracting [==================================================>]   5.83MB/5.83MB
+ da5b118382bf Downloading [=====>                                             ]  4.506MB/40.07MB
+ da5b118382bf Downloading [=====>                                             ]  4.506MB/40.07MB
+ d00c3209d929 Pull complete 
+ d00c3209d929 Pull complete 
+ d00c3209d929 Pull complete 
+ 9b42699f2ec7 Downloading [>                                                  ]  408.4kB/39.96MB
+ c1e595f74d52 Extracting [>                                                  ]  32.77kB/2.826MB
+ c1e595f74d52 Extracting [>                                                  ]  32.77kB/2.826MB
+ c1e595f74d52 Extracting [>                                                  ]  32.77kB/2.826MB
+ 619be1103602 Downloading [>                                                  ]  35.28kB/3.403MB
+ da5b118382bf Downloading [==========>                                        ]  8.594MB/40.07MB
+ da5b118382bf Downloading [==========>                                        ]  8.594MB/40.07MB
+ c1e595f74d52 Extracting [==================================================>]  2.826MB/2.826MB
+ c1e595f74d52 Extracting [==================================================>]  2.826MB/2.826MB
+ c1e595f74d52 Extracting [==================================================>]  2.826MB/2.826MB
+ 9b42699f2ec7 Downloading [=======>                                           ]  5.734MB/39.96MB
+ 619be1103602 Download complete 
+ 619be1103602 Extracting [>                                                  ]  65.54kB/3.403MB
+ c1e595f74d52 Pull complete 
+ c1e595f74d52 Pull complete 
+ c1e595f74d52 Pull complete 
+ b4e86264483b Extracting [==================================================>]      92B/92B
+ b4e86264483b Extracting [==================================================>]      92B/92B
+ b4e86264483b Extracting [==================================================>]      92B/92B
+ b4e86264483b Extracting [==================================================>]      92B/92B
+ b4e86264483b Extracting [==================================================>]      92B/92B
+ b4e86264483b Extracting [==================================================>]      92B/92B
+ da5b118382bf Downloading [=================>                                 ]  13.89MB/40.07MB
+ da5b118382bf Downloading [=================>                                 ]  13.89MB/40.07MB
+ 9b42699f2ec7 Downloading [=============>                                     ]  10.63MB/39.96MB
+ b4e86264483b Pull complete 
+ b4e86264483b Pull complete 
+ b4e86264483b Pull complete 
+ 619be1103602 Extracting [=========================>                         ]  1.704MB/3.403MB
+ da5b118382bf Downloading [=======================>                           ]  19.16MB/40.07MB
+ da5b118382bf Downloading [=======================>                           ]  19.16MB/40.07MB
+ 619be1103602 Extracting [==================================================>]  3.403MB/3.403MB
+ 619be1103602 Extracting [==================================================>]  3.403MB/3.403MB
+ 9b42699f2ec7 Downloading [===================>                               ]  15.93MB/39.96MB
+ da5b118382bf Downloading [==============================>                    ]  24.05MB/40.07MB
+ da5b118382bf Downloading [==============================>                    ]  24.05MB/40.07MB
+ 9b42699f2ec7 Downloading [==========================>                        ]  21.22MB/39.96MB
+ da5b118382bf Downloading [====================================>              ]  28.96MB/40.07MB
+ da5b118382bf Downloading [====================================>              ]  28.96MB/40.07MB
+ 987f790ee143 Downloading [>                                                  ]  6.409kB/622.8kB
+ 9b42699f2ec7 Downloading [================================>                  ]  26.11MB/39.96MB
+ 987f790ee143 Verifying Checksum 
+ 987f790ee143 Download complete 
+ da5b118382bf Downloading [==========================================>        ]  33.83MB/40.07MB
+ da5b118382bf Downloading [==========================================>        ]  33.83MB/40.07MB
+ 619be1103602 Pull complete 
+ 987f790ee143 Extracting [==>                                                ]  32.77kB/622.8kB
+ 9b42699f2ec7 Downloading [=======================================>           ]  31.39MB/39.96MB
+ da5b118382bf Downloading [================================================>  ]  38.72MB/40.07MB
+ da5b118382bf Downloading [================================================>  ]  38.72MB/40.07MB
+ da5b118382bf Verifying Checksum 
+ da5b118382bf Download complete 
+ da5b118382bf Verifying Checksum 
+ da5b118382bf Download complete 
+ 987f790ee143 Extracting [=======================================>           ]  491.5kB/622.8kB
+ 9b42699f2ec7 Downloading [=============================================>     ]  36.68MB/39.96MB
+ da5b118382bf Extracting [>                                                  ]    426kB/40.07MB
+ da5b118382bf Extracting [>                                                  ]    426kB/40.07MB
+ 9b42699f2ec7 Verifying Checksum 
+ 9b42699f2ec7 Download complete 
+ da5b118382bf Extracting [========>                                          ]  6.816MB/40.07MB
+ da5b118382bf Extracting [========>                                          ]  6.816MB/40.07MB
+ 987f790ee143 Extracting [=================================================> ]  622.6kB/622.8kB
+ 9b42699f2ec7 Extracting [>                                                  ]    426kB/39.96MB
+ 987f790ee143 Extracting [==================================================>]  622.8kB/622.8kB
+ da5b118382bf Extracting [==============>                                    ]   11.5MB/40.07MB
+ da5b118382bf Extracting [==============>                                    ]   11.5MB/40.07MB
+ 9b42699f2ec7 Extracting [=======>                                           ]  5.964MB/39.96MB
+ c6d80f829c66 Downloading [>                                                  ]  393.2kB/39.21MB
+ 9b42699f2ec7 Extracting [============>                                      ]  9.798MB/39.96MB
+ da5b118382bf Extracting [==================>                                ]  14.48MB/40.07MB
+ da5b118382bf Extracting [==================>                                ]  14.48MB/40.07MB
+ c6d80f829c66 Downloading [=============>                                     ]  10.29MB/39.21MB
+ da5b118382bf Extracting [=====================>                             ]  17.47MB/40.07MB
+ da5b118382bf Extracting [=====================>                             ]  17.47MB/40.07MB
+ c6d80f829c66 Downloading [============================>                      ]  22.14MB/39.21MB
+ 9b42699f2ec7 Extracting [===============>                                   ]  12.35MB/39.96MB
+ 987f790ee143 Pull complete 
+ 1d387567261e Downloading [>                                                  ]  301.5kB/29.54MB
+ da5b118382bf Extracting [==========================>                        ]  20.87MB/40.07MB
+ da5b118382bf Extracting [==========================>                        ]  20.87MB/40.07MB
+ c6d80f829c66 Downloading [========================================>          ]  31.72MB/39.21MB
+ 9b42699f2ec7 Extracting [==================>                                ]  14.48MB/39.96MB
+ 5300d181735b Downloading [==================================================>]     368B/368B
+ 5300d181735b Verifying Checksum 
+ 5300d181735b Download complete 
+ 1d387567261e Downloading [=======>                                           ]  4.586MB/29.54MB
+ da5b118382bf Extracting [=============================>                     ]  23.43MB/40.07MB
+ da5b118382bf Extracting [=============================>                     ]  23.43MB/40.07MB
+ c6d80f829c66 Downloading [=================================================> ]  38.45MB/39.21MB
+ c6d80f829c66 Verifying Checksum 
+ c6d80f829c66 Download complete 
+ 9b42699f2ec7 Extracting [======================>                            ]  17.89MB/39.96MB
+ c6d80f829c66 Extracting [>                                                  ]  393.2kB/39.21MB
+ 1d387567261e Downloading [========================>                          ]  14.45MB/29.54MB
+ da5b118382bf Extracting [================================>                  ]  25.99MB/40.07MB
+ da5b118382bf Extracting [================================>                  ]  25.99MB/40.07MB
+ 9b42699f2ec7 Extracting [==========================>                        ]  20.87MB/39.96MB
+ c6d80f829c66 Extracting [===>                                               ]  2.753MB/39.21MB
+ 1d387567261e Downloading [=====================================>             ]  22.44MB/29.54MB
+ da5b118382bf Extracting [===================================>               ]  28.11MB/40.07MB
+ da5b118382bf Extracting [===================================>               ]  28.11MB/40.07MB
+ 9b42699f2ec7 Extracting [=============================>                     ]  23.43MB/39.96MB
+ 1d387567261e Download complete 
+ c6d80f829c66 Extracting [=======>                                           ]  5.505MB/39.21MB
+ ac17c9c722ac Downloading [==========================>                        ]     935B/1.779kB
+ ac17c9c722ac Downloading [==================================================>]  1.779kB/1.779kB
+ ac17c9c722ac Verifying Checksum 
+ ac17c9c722ac Download complete 
+ 9b42699f2ec7 Extracting [================================>                  ]  25.99MB/39.96MB
+ da5b118382bf Extracting [=======================================>           ]  31.52MB/40.07MB
+ da5b118382bf Extracting [=======================================>           ]  31.52MB/40.07MB
+ 1d387567261e Extracting [>                                                  ]  327.7kB/29.54MB
+ c6d80f829c66 Extracting [=========>                                         ]  7.471MB/39.21MB
+ 9b42699f2ec7 Extracting [====================================>              ]  29.39MB/39.96MB
+ 1d387567261e Extracting [====>                                              ]  2.621MB/29.54MB
+ ac8d0b5b0efd Downloading [>                                                  ]  15.99kB/1.513MB
+ da5b118382bf Extracting [===========================================>       ]   34.5MB/40.07MB
+ da5b118382bf Extracting [===========================================>       ]   34.5MB/40.07MB
+ ac8d0b5b0efd Verifying Checksum 
+ ac8d0b5b0efd Download complete 
+ c6d80f829c66 Extracting [============>                                      ]  9.437MB/39.21MB
+ 9b42699f2ec7 Extracting [========================================>          ]  32.37MB/39.96MB
+ 1d387567261e Extracting [=========>                                         ]  5.571MB/29.54MB
+ da5b118382bf Extracting [==============================================>    ]  37.49MB/40.07MB
+ da5b118382bf Extracting [==============================================>    ]  37.49MB/40.07MB
+ c6d80f829c66 Extracting [==============>                                    ]   11.4MB/39.21MB
+ 11fa75efc526 Downloading [>                                                  ]  11.88kB/1.095MB
+ da5b118382bf Extracting [==================================================>]  40.07MB/40.07MB
+ da5b118382bf Extracting [==================================================>]  40.07MB/40.07MB
+ 9b42699f2ec7 Extracting [============================================>      ]  35.78MB/39.96MB
+ 11fa75efc526 Downloading [==================================================>]  1.095MB/1.095MB
+ 11fa75efc526 Verifying Checksum 
+ 11fa75efc526 Download complete 
+ 1d387567261e Extracting [=============>                                     ]  7.864MB/29.54MB
+ da5b118382bf Pull complete 
+ da5b118382bf Pull complete 
+ 9cebba5a6e24 Downloading [==================================================>]     116B/116B
+ 9cebba5a6e24 Download complete 
+ c6d80f829c66 Extracting [===================>                               ]  14.94MB/39.21MB
+ 9b42699f2ec7 Extracting [==================================================>]  39.96MB/39.96MB
+ api-2 Pulled 
+ api Pulled 
+ 1d387567261e Extracting [==============>                                    ]  8.847MB/29.54MB
+ 9b42699f2ec7 Pull complete 
+ c6d80f829c66 Extracting [========================>                          ]  18.87MB/39.21MB
+ 4fd97b26379a Downloading [==================================================>]     263B/263B
+ 4fd97b26379a Verifying Checksum 
+ 4fd97b26379a Download complete 
+ worker Pulled 
+ 1d387567261e Extracting [===================>                               ]  11.47MB/29.54MB
+ c6d80f829c66 Extracting [=============================>                     ]  22.81MB/39.21MB
+ 1d387567261e Extracting [===========================>                       ]  16.06MB/29.54MB
+ c6d80f829c66 Extracting [==================================>                ]  26.74MB/39.21MB
+ b73a47e8198a Downloading [>                                                  ]  540.1kB/246.7MB
+ 27520d77dbc5 Downloading [=========>                                         ]     935B/4.998kB
+ 27520d77dbc5 Downloading [==================================================>]  4.998kB/4.998kB
+ 27520d77dbc5 Verifying Checksum 
+ 27520d77dbc5 Download complete 
+ 1d387567261e Extracting [==================================>                ]  20.64MB/29.54MB
+ c6d80f829c66 Extracting [===================================>               ]  27.92MB/39.21MB
+ b73a47e8198a Downloading [=>                                                 ]  8.022MB/246.7MB
+ 1d387567261e Extracting [=======================================>           ]  23.59MB/29.54MB
+ c6d80f829c66 Extracting [======================================>            ]  30.28MB/39.21MB
+ b73a47e8198a Downloading [==>                                                ]  12.31MB/246.7MB
+ 1d387567261e Extracting [===========================================>       ]  25.56MB/29.54MB
+ c6d80f829c66 Extracting [=============================================>     ]  35.78MB/39.21MB
+ b73a47e8198a Downloading [==>                                                ]  14.46MB/246.7MB
+ c6d80f829c66 Extracting [==================================================>]  39.21MB/39.21MB
+ c6d80f829c66 Pull complete 
+ 1d387567261e Extracting [===========================================>       ]  25.89MB/29.54MB
+ 5300d181735b Extracting [==================================================>]     368B/368B
+ 5300d181735b Extracting [==================================================>]     368B/368B
+ b73a47e8198a Downloading [===>                                               ]  16.08MB/246.7MB
+ 5300d181735b Pull complete 
+ traefik Pulled 
+ 1d387567261e Extracting [===============================================>   ]  28.18MB/29.54MB
+ b73a47e8198a Downloading [====>                                              ]  20.87MB/246.7MB
+ b73a47e8198a Downloading [======>                                            ]   31.6MB/246.7MB
+ 1d387567261e Extracting [=================================================> ]  29.16MB/29.54MB
+ b73a47e8198a Downloading [========>                                          ]  41.22MB/246.7MB
+ 1d387567261e Extracting [=================================================> ]  29.49MB/29.54MB
+ 1d387567261e Extracting [==================================================>]  29.54MB/29.54MB
+ b73a47e8198a Downloading [==========>                                        ]  52.99MB/246.7MB
+ b73a47e8198a Downloading [============>                                      ]  63.14MB/246.7MB
+ 1d387567261e Pull complete 
+ ac17c9c722ac Extracting [==================================================>]  1.779kB/1.779kB
+ ac17c9c722ac Extracting [==================================================>]  1.779kB/1.779kB
+ ac17c9c722ac Pull complete 
+ b73a47e8198a Downloading [===============>                                   ]  74.95MB/246.7MB
+ ac8d0b5b0efd Extracting [=>                                                 ]  32.77kB/1.513MB
+ b73a47e8198a Downloading [=================>                                 ]  85.66MB/246.7MB
+ ac8d0b5b0efd Extracting [========================================>          ]  1.212MB/1.513MB
+ ac8d0b5b0efd Extracting [==================================================>]  1.513MB/1.513MB
+ b73a47e8198a Downloading [==================>                                ]  91.01MB/246.7MB
+ ac8d0b5b0efd Pull complete 
+ 11fa75efc526 Extracting [=>                                                 ]  32.77kB/1.095MB
+ 11fa75efc526 Extracting [==================================================>]  1.095MB/1.095MB
+ 11fa75efc526 Extracting [==================================================>]  1.095MB/1.095MB
+ b73a47e8198a Downloading [====================>                              ]  101.2MB/246.7MB
+ 11fa75efc526 Pull complete 
+ 9cebba5a6e24 Extracting [==================================================>]     116B/116B
+ 9cebba5a6e24 Extracting [==================================================>]     116B/116B
+ 9cebba5a6e24 Pull complete 
+ b73a47e8198a Downloading [======================>                            ]  112.5MB/246.7MB
+ 4fd97b26379a Extracting [==================================================>]     263B/263B
+ 4fd97b26379a Extracting [==================================================>]     263B/263B
+ 4fd97b26379a Pull complete 
+ b73a47e8198a Downloading [========================>                          ]  122.1MB/246.7MB
+ b73a47e8198a Downloading [==========================>                        ]  132.3MB/246.7MB
+ b73a47e8198a Downloading [=============================>                     ]  143.5MB/246.7MB
+ b73a47e8198a Downloading [===============================>                   ]  154.8MB/246.7MB
+ b73a47e8198a Downloading [=================================>                 ]  165.6MB/246.7MB
+ b73a47e8198a Downloading [===================================>               ]    173MB/246.7MB
+ b73a47e8198a Downloading [=====================================>             ]  184.3MB/246.7MB
+ b73a47e8198a Downloading [======================================>            ]  192.3MB/246.7MB
+ b73a47e8198a Downloading [=======================================>           ]  197.1MB/246.7MB
+ b73a47e8198a Downloading [==========================================>        ]  208.4MB/246.7MB
+ b73a47e8198a Downloading [============================================>      ]  219.7MB/246.7MB
+ b73a47e8198a Downloading [==============================================>    ]  230.4MB/246.7MB
+ b73a47e8198a Downloading [================================================>  ]  241.7MB/246.7MB
+ b73a47e8198a Verifying Checksum 
+ b73a47e8198a Download complete 
+ b73a47e8198a Extracting [>                                                  ]  557.1kB/246.7MB
+ b73a47e8198a Extracting [=>                                                 ]  8.913MB/246.7MB
+ b73a47e8198a Extracting [==>                                                ]  10.03MB/246.7MB
+ b73a47e8198a Extracting [===>                                               ]  16.71MB/246.7MB
+ b73a47e8198a Extracting [=====>                                             ]  25.07MB/246.7MB
+ b73a47e8198a Extracting [======>                                            ]  33.42MB/246.7MB
+ b73a47e8198a Extracting [========>                                          ]  41.22MB/246.7MB
+ b73a47e8198a Extracting [=========>                                         ]  49.02MB/246.7MB
+ b73a47e8198a Extracting [===========>                                       ]  55.15MB/246.7MB
+ b73a47e8198a Extracting [===========>                                       ]  56.82MB/246.7MB
+ b73a47e8198a Extracting [===========>                                       ]  57.93MB/246.7MB
+ b73a47e8198a Extracting [=============>                                     ]  66.85MB/246.7MB
+ b73a47e8198a Extracting [===============>                                   ]  74.09MB/246.7MB
+ b73a47e8198a Extracting [================>                                  ]  81.33MB/246.7MB
+ b73a47e8198a Extracting [==================>                                ]  89.13MB/246.7MB
+ b73a47e8198a Extracting [===================>                               ]  98.04MB/246.7MB
+ b73a47e8198a Extracting [=====================>                             ]  106.4MB/246.7MB
+ b73a47e8198a Extracting [======================>                            ]  109.2MB/246.7MB
+ b73a47e8198a Extracting [=======================>                           ]  117.5MB/246.7MB
+ b73a47e8198a Extracting [=========================>                         ]  124.8MB/246.7MB
+ b73a47e8198a Extracting [==========================>                        ]    132MB/246.7MB
+ b73a47e8198a Extracting [============================>                      ]  138.1MB/246.7MB
+ b73a47e8198a Extracting [============================>                      ]  139.3MB/246.7MB
+ b73a47e8198a Extracting [=============================>                     ]  144.8MB/246.7MB
+ b73a47e8198a Extracting [===============================>                   ]  153.2MB/246.7MB
+ b73a47e8198a Extracting [================================>                  ]  158.8MB/246.7MB
+ b73a47e8198a Extracting [=================================>                 ]  164.3MB/246.7MB
+ b73a47e8198a Extracting [=================================>                 ]  167.7MB/246.7MB
+ b73a47e8198a Extracting [===================================>               ]  174.4MB/246.7MB
+ b73a47e8198a Extracting [====================================>              ]  182.2MB/246.7MB
+ b73a47e8198a Extracting [======================================>            ]    190MB/246.7MB
+ b73a47e8198a Extracting [=======================================>           ]  196.6MB/246.7MB
+ b73a47e8198a Extracting [=========================================>         ]  205.6MB/246.7MB
+ b73a47e8198a Extracting [==========================================>        ]  210.6MB/246.7MB
+ b73a47e8198a Extracting [============================================>      ]  218.9MB/246.7MB
+ b73a47e8198a Extracting [=============================================>     ]  226.2MB/246.7MB
+ b73a47e8198a Extracting [===============================================>   ]    234MB/246.7MB
+ b73a47e8198a Extracting [================================================>  ]  240.6MB/246.7MB
+ b73a47e8198a Extracting [=================================================> ]  242.9MB/246.7MB
+ b73a47e8198a Extracting [=================================================> ]  245.7MB/246.7MB
+ b73a47e8198a Extracting [=================================================> ]  246.2MB/246.7MB
+ b73a47e8198a Extracting [==================================================>]  246.7MB/246.7MB
+ b73a47e8198a Pull complete 
+ 27520d77dbc5 Extracting [==================================================>]  4.998kB/4.998kB
+ 27520d77dbc5 Extracting [==================================================>]  4.998kB/4.998kB
+ 27520d77dbc5 Pull complete 
+ mongodb Pulled 
+ Network ryangst-bun_ryangst  Creating
+ Network ryangst-bun_ryangst  Created
+ Volume "ryangst-bun_mongodb_data"  Creating
+ Volume "ryangst-bun_mongodb_data"  Created
+ Volume "ryangst-bun_redis_data"  Creating
+ Volume "ryangst-bun_redis_data"  Created
+ Container ryangst-bun-mongodb-1  Creating
+ Container ryangst-bun-redis-1  Creating
+ Container traefik  Creating
+ Container ryangst-bun-redis-1  Created
+ Container ryangst-bun-mongodb-1  Created
+ Container worker-rinha  Creating
+ Container api-rinha  Creating
+ Container api-rinha-2  Creating
+ Container traefik  Created
+ Container worker-rinha  Created
+ Container api-rinha-2  Created
+ Container api-rinha  Created
+Attaching to api-rinha, api-rinha-2, mongodb-1, redis-1, traefik, worker-rinha
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:35.002+00:00"},"s":"I",  "c":"CONTROL",  "id":23285,   "ctx":"main","msg":"Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'"}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:35.003+00:00"},"s":"I",  "c":"NETWORK",  "id":4915701, "ctx":"main","msg":"Initialized wire specification","attr":{"spec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":21},"incomingInternalClient":{"minWireVersion":0,"maxWireVersion":21},"outgoing":{"minWireVersion":6,"maxWireVersion":21},"isInternalClient":true}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:35.004+00:00"},"s":"I",  "c":"NETWORK",  "id":4648601, "ctx":"main","msg":"Implicit TCP FastOpen unavailable. If TCP FastOpen is required, set tcpFastOpenServer, tcpFastOpenClient, and tcpFastOpenQueueSize."}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:35.005+00:00"},"s":"I",  "c":"REPL",     "id":5123008, "ctx":"main","msg":"Successfully registered PrimaryOnlyService","attr":{"service":"TenantMigrationDonorService","namespace":"config.tenantMigrationDonors"}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:35.081+00:00"},"s":"I",  "c":"REPL",     "id":5123008, "ctx":"main","msg":"Successfully registered PrimaryOnlyService","attr":{"service":"TenantMigrationRecipientService","namespace":"config.tenantMigrationRecipients"}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:35.081+00:00"},"s":"I",  "c":"CONTROL",  "id":5945603, "ctx":"main","msg":"Multi threading initialized"}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:35.082+00:00"},"s":"I",  "c":"TENANT_M", "id":7091600, "ctx":"main","msg":"Starting TenantMigrationAccessBlockerRegistry"}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:35.084+00:00"},"s":"I",  "c":"CONTROL",  "id":4615611, "ctx":"initandlisten","msg":"MongoDB starting","attr":{"pid":1,"port":27017,"dbPath":"/data/db","architecture":"64-bit","host":"a348452ef187"}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:35.084+00:00"},"s":"W",  "c":"CONTROL",  "id":20720,   "ctx":"initandlisten","msg":"Memory available to mongo process is less than total system memory","attr":{"availableMemSizeMB":110,"systemMemSizeMB":7823}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:35.084+00:00"},"s":"I",  "c":"CONTROL",  "id":23403,   "ctx":"initandlisten","msg":"Build Info","attr":{"buildInfo":{"version":"7.0.21","gitVersion":"a47b62aff2bae1914085c3ef1d90fc099acf000c","openSSLVersion":"OpenSSL 3.0.2 15 Mar 2022","modules":[],"allocator":"tcmalloc","environment":{"distmod":"ubuntu2204","distarch":"x86_64","target_arch":"x86_64"}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:35.084+00:00"},"s":"I",  "c":"CONTROL",  "id":51765,   "ctx":"initandlisten","msg":"Operating System","attr":{"os":{"name":"Ubuntu","version":"22.04"}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:35.084+00:00"},"s":"I",  "c":"CONTROL",  "id":21951,   "ctx":"initandlisten","msg":"Options set by command line","attr":{"options":{"net":{"bindIp":"*"}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:35.085+00:00"},"s":"I",  "c":"STORAGE",  "id":22297,   "ctx":"initandlisten","msg":"Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem","tags":["startupWarnings"]}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:35.085+00:00"},"s":"I",  "c":"STORAGE",  "id":22300,   "ctx":"initandlisten","msg":"The configured WiredTiger cache size is more than 80% of available RAM. See http://dochub.mongodb.org/core/faq-memory-diagnostics-wt","tags":["startupWarnings"]}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:35.085+00:00"},"s":"I",  "c":"STORAGE",  "id":22315,   "ctx":"initandlisten","msg":"Opening WiredTiger","attr":{"config":"create,cache_size=256M,session_max=33000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,remove=true,path=journal,compressor=snappy),builtin_extension_config=(zstd=(compression_level=6)),file_manager=(close_idle_time=600,close_scan_interval=10,close_handle_minimum=2000),statistics_log=(wait=0),json_output=(error,message),verbose=[recovery_progress:1,checkpoint_progress:1,compact_progress:1,backup:0,checkpoint:0,compact:0,evict:0,history_store:0,recovery:0,rts:0,salvage:0,tiered:0,timestamp:0,transaction:0,verify:0,log:0],"}}
+redis-1       | 1:C 16 Jul 2025 18:10:35.482 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+redis-1       | 1:C 16 Jul 2025 18:10:35.482 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+redis-1       | 1:C 16 Jul 2025 18:10:35.482 * Redis version=7.4.5, bits=64, commit=00000000, modified=0, pid=1, just started
+redis-1       | 1:C 16 Jul 2025 18:10:35.482 * Configuration loaded
+redis-1       | 1:M 16 Jul 2025 18:10:35.483 * monotonic clock: POSIX clock_gettime
+redis-1       | 1:M 16 Jul 2025 18:10:35.483 * Running mode=standalone, port=6379.
+redis-1       | 1:M 16 Jul 2025 18:10:35.484 * Server initialized
+redis-1       | 1:M 16 Jul 2025 18:10:35.484 * Ready to accept connections tcp
+traefik       | time="2025-07-16T18:10:35Z" level=info msg="Configuration loaded from flags."
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:36.873+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1752689436,"ts_usec":873352,"thread":"1:0x7fd6b7a95c80","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":30,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"recovery log replay has successfully finished and ran for 0 milliseconds"}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:36.873+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1752689436,"ts_usec":873691,"thread":"1:0x7fd6b7a95c80","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":30,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Set global recovery timestamp: (0, 0)"}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:36.873+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1752689436,"ts_usec":873829,"thread":"1:0x7fd6b7a95c80","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":30,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Set global oldest timestamp: (0, 0)"}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:36.874+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1752689436,"ts_usec":873994,"thread":"1:0x7fd6b7a95c80","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":30,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"recovery was completed successfully and took 0ms, including 0ms for the log replay, 0ms for the rollback to stable, and 0ms for the checkpoint."}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:36.908+00:00"},"s":"I",  "c":"STORAGE",  "id":4795906, "ctx":"initandlisten","msg":"WiredTiger opened","attr":{"durationMillis":1823}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:36.908+00:00"},"s":"I",  "c":"RECOVERY", "id":23987,   "ctx":"initandlisten","msg":"WiredTiger recoveryTimestamp","attr":{"recoveryTimestamp":{"$timestamp":{"t":0,"i":0}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.007+00:00"},"s":"W",  "c":"CONTROL",  "id":22120,   "ctx":"initandlisten","msg":"Access control is not enabled for the database. Read and write access to data and configuration is unrestricted","tags":["startupWarnings"]}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.007+00:00"},"s":"W",  "c":"CONTROL",  "id":9068900, "ctx":"initandlisten","msg":"For customers running MongoDB 7.0, we suggest changing the contents of the following sysfsFile","attr":{"sysfsFile":"/sys/kernel/mm/transparent_hugepage","currentValue":"always","desiredValue":"never"},"tags":["startupWarnings"]}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.007+00:00"},"s":"W",  "c":"CONTROL",  "id":5123300, "ctx":"initandlisten","msg":"vm.max_map_count is too low","attr":{"currentValue":65530,"recommendedMinimum":1677720,"maxConns":838860},"tags":["startupWarnings"]}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.007+00:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"initandlisten","msg":"createCollection","attr":{"namespace":"admin.system.version","uuidDisposition":"provided","uuid":{"uuid":{"$uuid":"167ed2e7-b81d-4f09-8aa2-ba8d801efc61"}},"options":{"uuid":{"$uuid":"167ed2e7-b81d-4f09-8aa2-ba8d801efc61"}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.065+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"initandlisten","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"167ed2e7-b81d-4f09-8aa2-ba8d801efc61"}},"namespace":"admin.system.version","index":"_id_","ident":"index-1-7575819507845664241","collectionIdent":"collection-0-7575819507845664241","commitTimestamp":null}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.065+00:00"},"s":"I",  "c":"REPL",     "id":20459,   "ctx":"initandlisten","msg":"Setting featureCompatibilityVersion","attr":{"newVersion":"7.0"}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.065+00:00"},"s":"I",  "c":"REPL",     "id":5853300, "ctx":"initandlisten","msg":"current featureCompatibilityVersion value","attr":{"featureCompatibilityVersion":"7.0","context":"setFCV"}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.065+00:00"},"s":"I",  "c":"NETWORK",  "id":4915702, "ctx":"initandlisten","msg":"Updated wire specification","attr":{"oldSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":21},"incomingInternalClient":{"minWireVersion":0,"maxWireVersion":21},"outgoing":{"minWireVersion":6,"maxWireVersion":21},"isInternalClient":true},"newSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":21},"incomingInternalClient":{"minWireVersion":21,"maxWireVersion":21},"outgoing":{"minWireVersion":21,"maxWireVersion":21},"isInternalClient":true}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.065+00:00"},"s":"I",  "c":"NETWORK",  "id":4915702, "ctx":"initandlisten","msg":"Updated wire specification","attr":{"oldSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":21},"incomingInternalClient":{"minWireVersion":21,"maxWireVersion":21},"outgoing":{"minWireVersion":21,"maxWireVersion":21},"isInternalClient":true},"newSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":21},"incomingInternalClient":{"minWireVersion":21,"maxWireVersion":21},"outgoing":{"minWireVersion":21,"maxWireVersion":21},"isInternalClient":true}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.065+00:00"},"s":"I",  "c":"REPL",     "id":5853300, "ctx":"initandlisten","msg":"current featureCompatibilityVersion value","attr":{"featureCompatibilityVersion":"7.0","context":"startup"}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.065+00:00"},"s":"I",  "c":"STORAGE",  "id":5071100, "ctx":"initandlisten","msg":"Clearing temp directory"}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.065+00:00"},"s":"I",  "c":"CONTROL",  "id":6608200, "ctx":"initandlisten","msg":"Initializing cluster server parameters from disk"}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.065+00:00"},"s":"I",  "c":"CONTROL",  "id":20536,   "ctx":"initandlisten","msg":"Flow Control is enabled on this deployment"}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.066+00:00"},"s":"I",  "c":"FTDC",     "id":20625,   "ctx":"initandlisten","msg":"Initializing full-time diagnostic data capture","attr":{"dataDirectory":"/data/db/diagnostic.data"}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.067+00:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"initandlisten","msg":"createCollection","attr":{"namespace":"local.startup_log","uuidDisposition":"generated","uuid":{"uuid":{"$uuid":"e9774e40-d694-4738-90b1-53b607b8b430"}},"options":{"capped":true,"size":10485760}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.123+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"initandlisten","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"e9774e40-d694-4738-90b1-53b607b8b430"}},"namespace":"local.startup_log","index":"_id_","ident":"index-3-7575819507845664241","collectionIdent":"collection-2-7575819507845664241","commitTimestamp":null}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.123+00:00"},"s":"I",  "c":"REPL",     "id":6015317, "ctx":"initandlisten","msg":"Setting new configuration state","attr":{"newState":"ConfigReplicationDisabled","oldState":"ConfigPreStart"}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.123+00:00"},"s":"I",  "c":"STORAGE",  "id":22262,   "ctx":"initandlisten","msg":"Timestamp monitor starting"}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.124+00:00"},"s":"I",  "c":"CONTROL",  "id":20712,   "ctx":"LogicalSessionCacheReap","msg":"Sessions collection is not set up; waiting until next sessions reap interval","attr":{"error":"NamespaceNotFound: config.system.sessions does not exist"}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.124+00:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"LogicalSessionCacheRefresh","msg":"createCollection","attr":{"namespace":"config.system.sessions","uuidDisposition":"generated","uuid":{"uuid":{"$uuid":"bd2f6d01-90eb-451b-b54a-104fd376ae6c"}},"options":{}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.124+00:00"},"s":"I",  "c":"NETWORK",  "id":23015,   "ctx":"listener","msg":"Listening on","attr":{"address":"/tmp/mongodb-27017.sock"}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.124+00:00"},"s":"I",  "c":"NETWORK",  "id":23015,   "ctx":"listener","msg":"Listening on","attr":{"address":"0.0.0.0"}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.124+00:00"},"s":"I",  "c":"NETWORK",  "id":23016,   "ctx":"listener","msg":"Waiting for connections","attr":{"port":27017,"ssl":"off"}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.124+00:00"},"s":"I",  "c":"CONTROL",  "id":8423403, "ctx":"initandlisten","msg":"mongod startup complete","attr":{"Summary of time elapsed":{"Startup from clean shutdown?":true,"Statistics":{"Transport layer setup":"0 ms","Run initial syncer crash recovery":"0 ms","Create storage engine lock file in the data directory":"0 ms","Get metadata describing storage engine":"0 ms","Create storage engine":"1894 ms","Write current PID to file":"10 ms","Write a new metadata for storage engine":"10 ms","Initialize FCV before rebuilding indexes":"0 ms","Drop abandoned idents and get back indexes that need to be rebuilt or builds that need to be restarted":"0 ms","Rebuild indexes for collections":"0 ms","Load cluster parameters from disk for a standalone":"0 ms","Build user and roles graph":"0 ms","Set up the background thread pool responsible for waiting for opTimes to be majority committed":"0 ms","Initialize information needed to make a mongod instance shard aware":"0 ms","Start up the replication coordinator":"0 ms","Start transport layer":"0 ms","_initAndListen total elapsed time":"2040 ms"}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.167+00:00"},"s":"I",  "c":"REPL",     "id":7360102, "ctx":"LogicalSessionCacheRefresh","msg":"Added oplog entry for create to transaction","attr":{"namespace":"config.$cmd","uuid":{"uuid":{"$uuid":"bd2f6d01-90eb-451b-b54a-104fd376ae6c"}},"object":{"create":"system.sessions","idIndex":{"v":2,"key":{"_id":1},"name":"_id_"}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.167+00:00"},"s":"I",  "c":"REPL",     "id":7360100, "ctx":"LogicalSessionCacheRefresh","msg":"Added oplog entry for createIndexes to transaction","attr":{"namespace":"config.$cmd","uuid":{"uuid":{"$uuid":"bd2f6d01-90eb-451b-b54a-104fd376ae6c"}},"object":{"createIndexes":"system.sessions","v":2,"key":{"lastUse":1},"name":"lsidTTLIndex","expireAfterSeconds":1800}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.190+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"LogicalSessionCacheRefresh","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"bd2f6d01-90eb-451b-b54a-104fd376ae6c"}},"namespace":"config.system.sessions","index":"_id_","ident":"index-5-7575819507845664241","collectionIdent":"collection-4-7575819507845664241","commitTimestamp":null}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.190+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"LogicalSessionCacheRefresh","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"bd2f6d01-90eb-451b-b54a-104fd376ae6c"}},"namespace":"config.system.sessions","index":"lsidTTLIndex","ident":"index-6-7575819507845664241","collectionIdent":"collection-4-7575819507845664241","commitTimestamp":null}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.313+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.20.0.6:48022","uuid":{"uuid":{"$uuid":"6adf98c9-0d5d-455b-8d3d-93d8a982e88b"}},"connectionId":1,"connectionCount":1}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.318+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn1","msg":"client metadata","attr":{"remote":"172.20.0.6:48022","client":"conn1","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.2"},"platform":"Bun v1.2.18, LE","os":{"name":"linux","architecture":"x64","version":"6.1.0-37-amd64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.324+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.20.0.6:48030","uuid":{"uuid":{"$uuid":"a7f9be55-cfc1-437c-a618-413aa4559e1f"}},"connectionId":2,"connectionCount":2}}
+api-rinha     | Connected to database
+api-rinha     | 🦊 Elysia is running at localhost:9999
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.337+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.20.0.6:48042","uuid":{"uuid":{"$uuid":"2a2f91c8-137c-4245-ab9e-5ef0a9c914c7"}},"connectionId":3,"connectionCount":3}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.392+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn2","msg":"client metadata","attr":{"remote":"172.20.0.6:48030","client":"conn2","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.2"},"platform":"Bun v1.2.18, LE","os":{"name":"linux","architecture":"x64","version":"6.1.0-37-amd64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.392+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.20.0.5:36040","uuid":{"uuid":{"$uuid":"a2aaf7a2-56d2-46bd-9cf8-1ec5d3d43558"}},"connectionId":4,"connectionCount":4}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.393+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn3","msg":"client metadata","attr":{"remote":"172.20.0.6:48042","client":"conn3","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.2"},"platform":"Bun v1.2.18, LE","os":{"name":"linux","architecture":"x64","version":"6.1.0-37-amd64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.394+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.20.0.7:43716","uuid":{"uuid":{"$uuid":"967b7445-a0e3-43c9-974d-e4a877a89f75"}},"connectionId":5,"connectionCount":5}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.396+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn4","msg":"client metadata","attr":{"remote":"172.20.0.5:36040","client":"conn4","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.2"},"platform":"Bun v1.2.18, LE","os":{"name":"linux","architecture":"x64","version":"6.1.0-37-amd64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.402+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.20.0.5:36048","uuid":{"uuid":{"$uuid":"456719c2-a572-41fa-b86a-1b7c76957bf9"}},"connectionId":6,"connectionCount":6}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.404+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn5","msg":"client metadata","attr":{"remote":"172.20.0.7:43716","client":"conn5","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.2"},"platform":"Bun v1.2.18, LE","os":{"name":"linux","architecture":"x64","version":"6.1.0-37-amd64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+api-rinha-2   | Connected to database
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.409+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.20.0.7:43732","uuid":{"uuid":{"$uuid":"323c751a-fed3-4052-8565-23eaf21259b2"}},"connectionId":7,"connectionCount":7}}
+api-rinha-2   | 🦊 Elysia is running at localhost:9998
+worker-rinha  | Connected to database
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.415+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.20.0.5:36064","uuid":{"uuid":{"$uuid":"d11299b2-c27f-4bb3-84fc-235e35baf00e"}},"connectionId":8,"connectionCount":8}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.421+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.20.0.7:43744","uuid":{"uuid":{"$uuid":"9babc773-fb99-4012-b403-3fdf73cbc7b2"}},"connectionId":9,"connectionCount":9}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.422+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn7","msg":"client metadata","attr":{"remote":"172.20.0.7:43732","client":"conn7","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.2"},"platform":"Bun v1.2.18, LE","os":{"name":"linux","architecture":"x64","version":"6.1.0-37-amd64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.425+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn9","msg":"client metadata","attr":{"remote":"172.20.0.7:43744","client":"conn9","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.2"},"platform":"Bun v1.2.18, LE","os":{"name":"linux","architecture":"x64","version":"6.1.0-37-amd64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.489+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn3","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":96}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.489+00:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"conn3","msg":"createCollection","attr":{"namespace":"rinha-ryangst.payments","uuidDisposition":"generated","uuid":{"uuid":{"$uuid":"6bd08d12-18ad-472f-b6ef-3ddad80d1b8b"}},"options":{}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.493+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn9","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":68}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.493+00:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"conn9","msg":"createCollection","attr":{"namespace":"rinha-ryangst.payments","uuidDisposition":"generated","uuid":{"uuid":{"$uuid":"eaca1db1-d632-4b3d-bc14-b71142d7a0df"}},"options":{}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.501+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn6","msg":"client metadata","attr":{"remote":"172.20.0.5:36048","client":"conn6","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.2"},"platform":"Bun v1.2.18, LE","os":{"name":"linux","architecture":"x64","version":"6.1.0-37-amd64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.505+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn8","msg":"client metadata","attr":{"remote":"172.20.0.5:36064","client":"conn8","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.2"},"platform":"Bun v1.2.18, LE","os":{"name":"linux","architecture":"x64","version":"6.1.0-37-amd64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.557+00:00"},"s":"I",  "c":"REPL",     "id":7360102, "ctx":"conn3","msg":"Added oplog entry for create to transaction","attr":{"namespace":"rinha-ryangst.$cmd","uuid":{"uuid":{"$uuid":"6bd08d12-18ad-472f-b6ef-3ddad80d1b8b"}},"object":{"create":"payments","idIndex":{"v":2,"key":{"_id":1},"name":"_id_"}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.558+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"conn3","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"6bd08d12-18ad-472f-b6ef-3ddad80d1b8b"}},"namespace":"rinha-ryangst.payments","index":"_id_","ident":"index-9-7575819507845664241","collectionIdent":"collection-7-7575819507845664241","commitTimestamp":null}}
+worker-rinha  | Worker ready payments
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.587+00:00"},"s":"I",  "c":"REPL",     "id":7360102, "ctx":"conn9","msg":"Added oplog entry for create to transaction","attr":{"namespace":"rinha-ryangst.$cmd","uuid":{"uuid":{"$uuid":"eaca1db1-d632-4b3d-bc14-b71142d7a0df"}},"object":{"create":"payments","idIndex":{"v":2,"key":{"_id":1},"name":"_id_"}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.587+00:00"},"s":"I",  "c":"STORAGE",  "id":5725001, "ctx":"conn9","msg":"Conflicted registering namespace, already have a collection with the same namespace","attr":{"nss":"rinha-ryangst.payments"}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.593+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.20.0.7:43754","uuid":{"uuid":{"$uuid":"ffc2bcf8-ed24-4de6-84ec-261f84b81772"}},"connectionId":10,"connectionCount":10}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.595+00:00"},"s":"I",  "c":"COMMAND",  "id":51803,   "ctx":"conn9","msg":"Slow query","attr":{"type":"command","ns":"rinha-ryangst.payments","command":{"create":"payments","lsid":{"id":{"$uuid":"d99cbcce-599b-4dbe-8fea-5d673758c37e"}},"$db":"rinha-ryangst"},"writeConflicts":1,"numYields":0,"reslen":38,"locks":{"ParallelBatchWriterMode":{"acquireCount":{"r":3}},"FeatureCompatibilityVersion":{"acquireCount":{"r":1,"w":2}},"ReplicationStateTransition":{"acquireCount":{"w":3}},"Global":{"acquireCount":{"r":1,"w":2}},"Database":{"acquireCount":{"r":1,"w":2}},"Collection":{"acquireCount":{"r":1,"w":2}},"Mutex":{"acquireCount":{"r":1}}},"flowControl":{"acquireCount":2},"storage":{},"cpuNanos":5752789,"remote":"172.20.0.7:43744","protocol":"op_msg","durationMillis":101}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.597+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn8","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":92}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.599+00:00"},"s":"I",  "c":"INDEX",    "id":20438,   "ctx":"conn3","msg":"Index build: registering","attr":{"buildUUID":{"uuid":{"$uuid":"e81013ce-fc68-45ed-aa64-0719a4d6193e"}},"namespace":"rinha-ryangst.payments","collectionUUID":{"uuid":{"$uuid":"6bd08d12-18ad-472f-b6ef-3ddad80d1b8b"}},"indexes":1,"firstIndex":{"name":"requestedAt_1_processor_1"},"command":{"createIndexes":"payments","v":2,"indexes":[{"background":true,"partialFilterExpression":{"processor":{"$in":["default","fallback"]}},"name":"requestedAt_1_processor_1","key":{"requestedAt":1,"processor":1}}],"ignoreUnknownIndexOptions":false}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.599+00:00"},"s":"I",  "c":"REPL",     "id":7360100, "ctx":"conn3","msg":"Added oplog entry for createIndexes to transaction","attr":{"namespace":"rinha-ryangst.$cmd","uuid":{"uuid":{"$uuid":"6bd08d12-18ad-472f-b6ef-3ddad80d1b8b"}},"object":{"createIndexes":"payments","v":2,"key":{"requestedAt":1,"processor":1},"name":"requestedAt_1_processor_1","background":true,"partialFilterExpression":{"processor":{"$in":["default","fallback"]}}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.601+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.20.0.6:48048","uuid":{"uuid":{"$uuid":"3b30da4b-0e35-44a2-abce-63873e183cff"}},"connectionId":11,"connectionCount":11}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.610+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn10","msg":"client metadata","attr":{"remote":"172.20.0.7:43754","client":"conn10","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.2"},"platform":"Bun v1.2.18, LE","os":{"name":"linux","architecture":"x64","version":"6.1.0-37-amd64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.612+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn11","msg":"client metadata","attr":{"remote":"172.20.0.6:48048","client":"conn11","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.2"},"platform":"Bun v1.2.18, LE","os":{"name":"linux","architecture":"x64","version":"6.1.0-37-amd64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.622+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"conn3","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"6bd08d12-18ad-472f-b6ef-3ddad80d1b8b"}},"namespace":"rinha-ryangst.payments","index":"requestedAt_1_processor_1","ident":"index-11-7575819507845664241","collectionIdent":"collection-7-7575819507845664241","commitTimestamp":null}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.622+00:00"},"s":"I",  "c":"INDEX",    "id":20440,   "ctx":"conn3","msg":"Index build: waiting for index build to complete","attr":{"buildUUID":{"uuid":{"$uuid":"e81013ce-fc68-45ed-aa64-0719a4d6193e"}},"deadline":{"$date":{"$numberLong":"9223372036854775807"}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.622+00:00"},"s":"I",  "c":"INDEX",    "id":20447,   "ctx":"conn3","msg":"Index build: completed","attr":{"buildUUID":{"uuid":{"$uuid":"e81013ce-fc68-45ed-aa64-0719a4d6193e"}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.624+00:00"},"s":"I",  "c":"INDEX",    "id":20438,   "ctx":"conn9","msg":"Index build: registering","attr":{"buildUUID":{"uuid":{"$uuid":"009cd76b-8a38-4a74-b3ce-baa4af244977"}},"namespace":"rinha-ryangst.payments","collectionUUID":{"uuid":{"$uuid":"6bd08d12-18ad-472f-b6ef-3ddad80d1b8b"}},"indexes":1,"firstIndex":{"name":"correlationId_1"},"command":{"createIndexes":"payments","v":2,"indexes":[{"unique":true,"background":true,"name":"correlationId_1","key":{"correlationId":1}}],"ignoreUnknownIndexOptions":false}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.624+00:00"},"s":"I",  "c":"REPL",     "id":7360100, "ctx":"conn9","msg":"Added oplog entry for createIndexes to transaction","attr":{"namespace":"rinha-ryangst.$cmd","uuid":{"uuid":{"$uuid":"6bd08d12-18ad-472f-b6ef-3ddad80d1b8b"}},"object":{"createIndexes":"payments","v":2,"unique":true,"key":{"correlationId":1},"name":"correlationId_1","background":true}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.650+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"conn9","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"6bd08d12-18ad-472f-b6ef-3ddad80d1b8b"}},"namespace":"rinha-ryangst.payments","index":"correlationId_1","ident":"index-12-7575819507845664241","collectionIdent":"collection-7-7575819507845664241","commitTimestamp":null}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.650+00:00"},"s":"I",  "c":"INDEX",    "id":20440,   "ctx":"conn9","msg":"Index build: waiting for index build to complete","attr":{"buildUUID":{"uuid":{"$uuid":"009cd76b-8a38-4a74-b3ce-baa4af244977"}},"deadline":{"$date":{"$numberLong":"9223372036854775807"}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.650+00:00"},"s":"I",  "c":"INDEX",    "id":20447,   "ctx":"conn9","msg":"Index build: completed","attr":{"buildUUID":{"uuid":{"$uuid":"009cd76b-8a38-4a74-b3ce-baa4af244977"}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.695+00:00"},"s":"I",  "c":"INDEX",    "id":20438,   "ctx":"conn3","msg":"Index build: registering","attr":{"buildUUID":{"uuid":{"$uuid":"dd6b0172-ba0d-433a-80c2-63361eab172c"}},"namespace":"rinha-ryangst.payments","collectionUUID":{"uuid":{"$uuid":"6bd08d12-18ad-472f-b6ef-3ddad80d1b8b"}},"indexes":1,"firstIndex":{"name":"processor_1_requestedAt_1"},"command":{"createIndexes":"payments","v":2,"indexes":[{"background":true,"name":"processor_1_requestedAt_1","key":{"processor":1,"requestedAt":1}}],"ignoreUnknownIndexOptions":false}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.695+00:00"},"s":"I",  "c":"REPL",     "id":7360100, "ctx":"conn3","msg":"Added oplog entry for createIndexes to transaction","attr":{"namespace":"rinha-ryangst.$cmd","uuid":{"uuid":{"$uuid":"6bd08d12-18ad-472f-b6ef-3ddad80d1b8b"}},"object":{"createIndexes":"payments","v":2,"key":{"processor":1,"requestedAt":1},"name":"processor_1_requestedAt_1","background":true}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.704+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.20.0.5:36078","uuid":{"uuid":{"$uuid":"d97a933d-cd00-40a6-8a3e-272c0d02952d"}},"connectionId":12,"connectionCount":12}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.705+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn12","msg":"client metadata","attr":{"remote":"172.20.0.5:36078","client":"conn12","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.2"},"platform":"Bun v1.2.18, LE","os":{"name":"linux","architecture":"x64","version":"6.1.0-37-amd64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.717+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"conn3","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"6bd08d12-18ad-472f-b6ef-3ddad80d1b8b"}},"namespace":"rinha-ryangst.payments","index":"processor_1_requestedAt_1","ident":"index-13-7575819507845664241","collectionIdent":"collection-7-7575819507845664241","commitTimestamp":null}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.717+00:00"},"s":"I",  "c":"INDEX",    "id":20440,   "ctx":"conn3","msg":"Index build: waiting for index build to complete","attr":{"buildUUID":{"uuid":{"$uuid":"dd6b0172-ba0d-433a-80c2-63361eab172c"}},"deadline":{"$date":{"$numberLong":"9223372036854775807"}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.717+00:00"},"s":"I",  "c":"INDEX",    "id":20447,   "ctx":"conn3","msg":"Index build: completed","attr":{"buildUUID":{"uuid":{"$uuid":"dd6b0172-ba0d-433a-80c2-63361eab172c"}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.791+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.20.0.7:43762","uuid":{"uuid":{"$uuid":"4df1abbc-be98-4e11-9f89-4d12f442e120"}},"connectionId":13,"connectionCount":13}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.794+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.20.0.6:48060","uuid":{"uuid":{"$uuid":"081c2aed-e092-4025-ba5b-88281a5eb973"}},"connectionId":14,"connectionCount":14}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.795+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn14","msg":"client metadata","attr":{"remote":"172.20.0.6:48060","client":"conn14","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.2"},"platform":"Bun v1.2.18, LE","os":{"name":"linux","architecture":"x64","version":"6.1.0-37-amd64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.803+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn13","msg":"client metadata","attr":{"remote":"172.20.0.7:43762","client":"conn13","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.2"},"platform":"Bun v1.2.18, LE","os":{"name":"linux","architecture":"x64","version":"6.1.0-37-amd64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.889+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.20.0.5:36090","uuid":{"uuid":{"$uuid":"83816a35-ebe9-4780-b93b-c59582e2ca5f"}},"connectionId":15,"connectionCount":15}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.892+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn15","msg":"client metadata","attr":{"remote":"172.20.0.5:36090","client":"conn15","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.2"},"platform":"Bun v1.2.18, LE","os":{"name":"linux","architecture":"x64","version":"6.1.0-37-amd64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.904+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.20.0.6:48066","uuid":{"uuid":{"$uuid":"120b986d-6591-4765-9b82-7d76a81b4735"}},"connectionId":16,"connectionCount":16}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.905+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn16","msg":"client metadata","attr":{"remote":"172.20.0.6:48066","client":"conn16","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.2"},"platform":"Bun v1.2.18, LE","os":{"name":"linux","architecture":"x64","version":"6.1.0-37-amd64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.912+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.20.0.7:43768","uuid":{"uuid":{"$uuid":"580ffee0-937d-4d53-89ff-e0c8e9fa542e"}},"connectionId":17,"connectionCount":17}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:37.915+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn17","msg":"client metadata","attr":{"remote":"172.20.0.7:43768","client":"conn17","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.2"},"platform":"Bun v1.2.18, LE","os":{"name":"linux","architecture":"x64","version":"6.1.0-37-amd64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:38.034+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.20.0.5:36092","uuid":{"uuid":{"$uuid":"1a366c7e-dcf8-401d-af1a-3b0c7fa58ed1"}},"connectionId":18,"connectionCount":18}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:38.034+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn18","msg":"client metadata","attr":{"remote":"172.20.0.5:36092","client":"conn18","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.2"},"platform":"Bun v1.2.18, LE","os":{"name":"linux","architecture":"x64","version":"6.1.0-37-amd64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:47.888+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.20.0.6:37130","uuid":{"uuid":{"$uuid":"950ba6e2-f449-4d9a-b564-238c3aec3c46"}},"connectionId":19,"connectionCount":19}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:47.889+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn19","msg":"client metadata","attr":{"remote":"172.20.0.6:37130","client":"conn19","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.2"},"platform":"Bun v1.2.18, LE","os":{"name":"linux","architecture":"x64","version":"6.1.0-37-amd64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:47.906+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.20.0.5:41914","uuid":{"uuid":{"$uuid":"cc6fc621-7736-446f-98c3-3053a000cdb3"}},"connectionId":20,"connectionCount":20}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:47.906+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn20","msg":"client metadata","attr":{"remote":"172.20.0.5:41914","client":"conn20","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.2"},"platform":"Bun v1.2.18, LE","os":{"name":"linux","architecture":"x64","version":"6.1.0-37-amd64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:47.918+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.20.0.7:55304","uuid":{"uuid":{"$uuid":"3bc26da3-52c8-4374-b311-11e70934cc85"}},"connectionId":21,"connectionCount":21}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:47.921+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn21","msg":"client metadata","attr":{"remote":"172.20.0.7:55304","client":"conn21","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.2"},"platform":"Bun v1.2.18, LE","os":{"name":"linux","architecture":"x64","version":"6.1.0-37-amd64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+worker-rinha  | Worker completed payments with id: "224238a2-0bc8-4b83-bf73-0460709dedcf"
+worker-rinha  | Worker completed payments with id: "d6100175-ad87-40b2-a42d-3074b95f0319"
+worker-rinha  | Worker completed payments with id: "f9a55034-f7a9-4848-9290-38b18b05fdc3"
+worker-rinha  | Worker completed payments with id: "0f46b4b9-ca51-43a3-aa4b-a38af3b47937"
+worker-rinha  | Worker completed payments with id: "20ba57ef-1518-4404-8005-e68b026426d6"
+worker-rinha  | Worker completed payments with id: "3253f6d8-a801-4c7b-86d2-e720335cd462"
+worker-rinha  | Worker completed payments with id: "fd8ff5a1-6c40-495b-b72b-fa60d65af61c"
+worker-rinha  | Worker completed payments with id: "d55cfd02-b10f-4dfe-8d67-503ccbcd5f62"
+worker-rinha  | Worker completed payments with id: "ddff4594-7af5-4506-b412-46cfaf689769"
+worker-rinha  | Worker completed payments with id: "19262a0e-ee6b-434f-a43b-2444f5925141"
+worker-rinha  | Worker completed payments with id: "7117597c-b261-46e3-aaa9-d29a1102d07e"
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:49.687+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn7","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":12265}}
+worker-rinha  | Worker completed payments with id: "48dfe659-9fed-4a4c-a2d5-c88433baf331"
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:49.709+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn10","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":12098}}
+worker-rinha  | Worker completed payments with id: "dc0e4a3b-a77f-47da-bba4-1f47941f956e"
+worker-rinha  | Worker completed payments with id: "1f1fb83d-8aed-4191-b6c3-cf2923f581ac"
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:49.805+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn13","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":12002}}
+worker-rinha  | Worker completed payments with id: "3c6e637d-536a-4f94-96b2-f529b59b0738"
+worker-rinha  | Worker completed payments with id: "6711fb83-3295-4d46-801d-bbe76ff4b762"
+worker-rinha  | Worker completed payments with id: "4a16f64c-bf2e-428c-98a4-668e4349a6fe"
+worker-rinha  | Worker completed payments with id: "13dd54b6-7331-4d10-96ab-4e2cd72b9472"
+worker-rinha  | Worker completed payments with id: "63849573-324f-47e5-8e6a-27310dfd9b6f"
+worker-rinha  | Worker completed payments with id: "8afb4adb-1785-4f83-a33f-7b0152c34355"
+worker-rinha  | Worker completed payments with id: "c04fab21-2d22-459e-807a-3618e4d3c3b4"
+worker-rinha  | Worker completed payments with id: "3ce2a135-7a6f-4f02-8e3c-7b3e3c1917f9"
+worker-rinha  | Worker completed payments with id: "8fa3c5d0-5190-42aa-8458-60ed6c182b97"
+worker-rinha  | Worker completed payments with id: "fda3ed6a-969f-4f6b-a4b9-c213d2f896b1"
+worker-rinha  | Worker completed payments with id: "4448e016-b19c-45ef-9d35-3dfdecddd0ef"
+worker-rinha  | Worker completed payments with id: "9207e500-b41d-4aa6-80d5-0497e7a2e7cf"
+worker-rinha  | Worker completed payments with id: "c44a139c-ead3-4b99-aaf7-3865ae9a53ba"
+worker-rinha  | Worker completed payments with id: "92792551-51de-4e85-b11d-434767d5bb7a"
+worker-rinha  | Worker completed payments with id: "ba7f654d-a6a4-4958-bd3b-c302bf0d4ad9"
+worker-rinha  | Worker completed payments with id: "6a3fbe4d-5129-44c1-93d1-51a406239f87"
+worker-rinha  | Worker completed payments with id: "cefb6bcc-6a8e-47f9-a1e4-9d6eb0ae799b"
+worker-rinha  | Worker completed payments with id: "cf39b870-40bc-423d-833f-627190ee06e0"
+worker-rinha  | Worker completed payments with id: "3e19f9c3-b109-48e3-b39f-90a9c057e18c"
+worker-rinha  | Worker completed payments with id: "1556b667-3e02-42fe-b61a-80d012aff64e"
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:50.883+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn17","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":12967}}
+worker-rinha  | Worker completed payments with id: "adbd826a-5b1b-4bdd-8da5-24a96a5e5c1d"
+worker-rinha  | Worker completed payments with id: "e20040c7-423e-443c-931a-aecaba48e414"
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:50.901+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.20.0.7:43442","uuid":{"uuid":{"$uuid":"9e15e808-b1c9-47ca-86a6-35fb309f6483"}},"connectionId":22,"connectionCount":22}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:50.904+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn22","msg":"client metadata","attr":{"remote":"172.20.0.7:43442","client":"conn22","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.2"},"platform":"Bun v1.2.18, LE","os":{"name":"linux","architecture":"x64","version":"6.1.0-37-amd64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:50.983+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn22","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":78}}
+worker-rinha  | Worker completed payments with id: "17729281-fc77-41e8-ae8f-e7d0a15f275b"
+worker-rinha  | Worker completed payments with id: "5495b1fc-6e12-4c4a-af15-b4cf5fcd7335"
+worker-rinha  | Worker completed payments with id: "0ad664b7-9ff9-44ce-bb81-90dfde65ff75"
+worker-rinha  | Worker completed payments with id: "e451878a-2cc5-4f32-940a-f55a1d040327"
+worker-rinha  | Worker completed payments with id: "852de858-d612-475b-bca8-9558815258b7"
+worker-rinha  | Worker completed payments with id: "72168145-9fd2-46cc-8272-a908ea00c65a"
+worker-rinha  | Worker completed payments with id: "80673ba1-8656-4396-aeac-494cad4070ea"
+worker-rinha  | Worker completed payments with id: "917beba4-2de7-47b8-b782-5fa90923a352"
+worker-rinha  | Worker completed payments with id: "8a0a4ae6-ed1d-4a4e-b8cb-e7af1f48b76a"
+worker-rinha  | Worker completed payments with id: "fc1f7894-6c2d-4ef2-8ebb-827017e74571"
+worker-rinha  | Worker completed payments with id: "0df51691-a094-4569-bd64-8f6900ff581e"
+worker-rinha  | Worker completed payments with id: "3677d9fc-e143-41d8-ae78-715e39409fca"
+worker-rinha  | Worker completed payments with id: "998d939e-15e3-4bd8-b8f9-629ec77fedc6"
+worker-rinha  | Worker completed payments with id: "361c41f0-3eac-4b76-a2d5-2e51aba2b1c1"
+worker-rinha  | Worker completed payments with id: "6520baac-724a-44f8-9ea7-8d40cc4e7d76"
+worker-rinha  | Worker completed payments with id: "35bfaf84-30d1-449d-9641-dda4b8e8645a"
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:51.585+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.20.0.7:43456","uuid":{"uuid":{"$uuid":"d141ede1-9eb6-4cd4-b4c4-52ef7241d09a"}},"connectionId":23,"connectionCount":23}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:51.586+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.20.0.7:43460","uuid":{"uuid":{"$uuid":"c979e9f8-02f7-438f-92e8-03292ca46dbb"}},"connectionId":24,"connectionCount":24}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:51.588+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn23","msg":"client metadata","attr":{"remote":"172.20.0.7:43456","client":"conn23","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.2"},"platform":"Bun v1.2.18, LE","os":{"name":"linux","architecture":"x64","version":"6.1.0-37-amd64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:51.592+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn24","msg":"client metadata","attr":{"remote":"172.20.0.7:43460","client":"conn24","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.2"},"platform":"Bun v1.2.18, LE","os":{"name":"linux","architecture":"x64","version":"6.1.0-37-amd64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:51.596+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn24","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":4}}
+mongodb-1     | {"t":{"$date":"2025-07-16T18:10:51.597+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn23","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":8}}
+worker-rinha  | Worker completed payments with id: "9bbafaca-60fa-4038-85e1-686ac8ba6dd4"
+worker-rinha  | Worker completed payments with id: "4a990179-4e6a-48c8-ba24-ed29d6ffc040"
+worker-rinha  | Worker completed payments with id: "34832197-c6de-4d69-ae0b-20fb277e8b31"
+worker-rinha  | Worker completed payments with id: "b962c108-16ee-4e43-8a63-af2b7be2aa2c"
+worker-rinha  | Worker completed payments with id: "8707f9ca-bf40-44f9-9c32-a0d9c6c45a74"
+worker-rinha  | Worker completed payments with id: "f46ca9cb-cdd9-41d9-bac1-412a923f0b3a"
+worker-rinha  | Worker completed payments with id: "60bca72d-705a-4966-a381-90fe79d4f86e"
+worker-rinha  | Worker completed payments with id: "797638f6-5bf8-4ed1-8a39-464dd840a225"
+worker-rinha  | Worker completed payments with id: "bb18079b-89a3-4246-a947-f4cb1fcf22c1"
+worker-rinha  | Worker completed payments with id: "1745e5a0-d139-469f-9da0-dd91e9942fce"
+worker-rinha  | Worker completed payments with id: "9f609c6f-b11d-44bd-8ac7-c65a0f4000ab"
+worker-rinha  | Worker completed payments with id: "413319ce-6a57-4d08-9c57-849d1512bfb9"
+worker-rinha  | Worker completed payments with id: "1150ae1e-3ec6-428a-9834-162fc0169668"
+worker-rinha  | Worker completed payments with id: "bf8a4c2f-7838-4645-a0cf-77f92257e0f2"
+worker-rinha  | Worker completed payments with id: "5a9e3dbb-97dc-45bf-a75d-c64687d525a3"
+worker-rinha  | Worker completed payments with id: "86d4c6fc-57c8-4cc3-a4cc-489c996ada22"
+worker-rinha  | Worker completed payments with id: "a53579a2-3de1-4dfc-9572-4cf8f7acf1fb"
+worker-rinha  | Worker completed payments with id: "133dff0a-2531-4520-8d22-196465ac04b2"
+worker-rinha  | Worker completed payments with id: "3ceae45a-63b8-4d94-a902-0e5c39af659c"
+worker-rinha  | Worker completed payments with id: "ac34faed-2b7c-4d9f-a0e9-1e564b1c6243"
+worker-rinha  | Worker completed payments with id: "0337d07b-bb16-457e-afd6-4a8b6fabe57c"
+worker-rinha  | Worker completed payments with id: "2eb1122d-ebf7-4297-b45c-b6bd796d4970"
+worker-rinha  | Worker completed payments with id: "87a99a2d-8b59-4365-a828-462dc0eeb54f"
+worker-rinha  | Worker completed payments with id: "45f6e15a-fbcf-4bcb-857c-a1cceff885c0"
+worker-rinha  | Worker completed payments with id: "ad54249a-d0a4-482e-a7e7-01363445e9fb"
+worker-rinha  | Worker completed payments with id: "ba9634da-eeac-4a09-b9bd-ee529ad7a466"
+worker-rinha  | Worker completed payments with id: "0d866f05-82b1-424f-9cf0-d80607ce2ac7"
+worker-rinha  | Worker completed payments with id: "aaeb31ee-9a04-42bc-9ac6-05466479fefd"
+worker-rinha  | Worker completed payments with id: "eac24844-2baa-4005-95db-46c999a349c8"
+worker-rinha  | Worker completed payments with id: "815889f1-b226-4f56-910d-cad3bcbdfb17"
+worker-rinha  | Worker completed payments with id: "f04dbc45-c059-4d4b-bd2c-9402e9c50b10"
+worker-rinha  | Worker completed payments with id: "a671e370-bfaf-421c-be7d-ad5bdb36ac4d"
+worker-rinha  | Worker completed payments with id: "337afa9b-a977-4db8-baf9-24ce36f32381"
+worker-rinha  | Worker completed payments with id: "5c67e3e6-cf83-4cd4-a4b3-5c85b8b77b4d"
+worker-rinha  | Worker completed payments with id: "f19c1456-3009-4ba7-8bda-c3a1f280f3c9"
+worker-rinha  | Both processors failing, delaying job c00a5acc-6c69-40e1-a52d-9ae48da092ad
+worker-rinha  | Both processors failing, delaying job 32c5ec38-6937-4b2d-9491-96572a6cc29a
+worker-rinha  | Both processors failing, delaying job d15c2218-60db-4629-8c4d-60a0258534b1
+worker-rinha  | Both processors failing, delaying job 5cc5eb56-6cb6-4906-8810-6b2d7fbcd61a
+worker-rinha  | Worker completed payments with id: "58c4fec7-ba97-410d-84b9-9ded3b5b4a99"
+worker-rinha  | Worker completed payments with id: "7742e055-edfd-4429-b861-b21afc653a4b"
+worker-rinha  | Both processors failing, delaying job 2f00919e-c469-4679-a04d-3f8ad8f1d2f2
+worker-rinha  | Worker completed payments with id: "4959ae08-4a7f-4531-b343-2eec1ed78762"
+worker-rinha  | Worker completed payments with id: "02624b83-8b18-4a33-8dd1-75387121ec0f"
+worker-rinha  | Worker completed payments with id: "91615894-d555-41e7-8012-d7a283ae16f8"
+worker-rinha  | Worker completed payments with id: "35ce209b-2a6b-4d25-bbaf-09d8fe60e2fc"
+worker-rinha  | Worker completed payments with id: "008ed5d5-2127-482a-a0f1-ee0924e0558e"
+worker-rinha  | Worker completed payments with id: "cb09c74e-4c89-41b1-b91b-b9c45dbea343"
+worker-rinha  | Worker completed payments with id: "7b81cc0d-8837-4716-8715-47dc4fe5ef7f"
+worker-rinha  | Worker completed payments with id: "91f2cc2e-1685-4862-b076-1554fa8077d7"
+worker-rinha  | Worker completed payments with id: "2ad21ed3-599a-4488-9fbb-a9e68a3c11d7"
+worker-rinha  | Worker completed payments with id: "be2b7809-5277-4cb3-8ac3-97c2d1a788dc"
+worker-rinha  | Worker completed payments with id: "ec695b36-74f7-4262-bfba-c729ed696d30"
+worker-rinha  | Worker completed payments with id: "e23c5981-c16c-4f9e-ba88-23ef9a16c685"
+worker-rinha  | Worker completed payments with id: "acd72461-1343-4ba0-a1f2-2b79e1cdef1b"
+worker-rinha  | Worker completed payments with id: "9d5e5833-6cc9-48a4-a419-8a89d167d349"
+worker-rinha  | Worker completed payments with id: "6b8d39f7-7fbb-4c5c-834a-11aef6ad48ed"
+worker-rinha  | Worker completed payments with id: "8ec39023-5a38-4b9f-acfb-8d27887f12e3"
+worker-rinha  | Worker completed payments with id: "b2748b44-27f4-4c6a-996f-ad8791e5f79b"
+worker-rinha  | Worker completed payments with id: "80d71ca7-bd34-4776-a5ba-34c77d582626"
+worker-rinha  | Worker completed payments with id: "86c244cc-cad6-443c-b471-681b9fe5fea1"
+worker-rinha  | Worker completed payments with id: "eb89a23a-0872-4531-8885-35a946020067"
+worker-rinha  | Worker completed payments with id: "9701cd04-dfa5-45bc-8128-4db2098df5ac"
+worker-rinha  | Worker completed payments with id: "d5a324be-68eb-4004-ae70-addedf372e17"
+worker-rinha  | Worker completed payments with id: "36024301-5633-4352-b738-a2955220c40d"
+worker-rinha  | Worker completed payments with id: "af7c0a72-1ea8-41fe-841a-25511df8157d"
+worker-rinha  | Worker completed payments with id: "ebf8e263-7d5f-4fde-9a9e-96c598b37381"
+worker-rinha  | Worker completed payments with id: "05e5c6df-2aae-4716-8392-2cc1f83febd6"
+worker-rinha  | Worker completed payments with id: "351bf55f-a971-4674-8a39-f397d2bf8e52"
+worker-rinha  | Worker completed payments with id: "c5bc2ec1-de68-4f1b-80ee-91c2c8396e35"
+worker-rinha  | Worker completed payments with id: "58b7f747-7d14-44b9-8e4b-9550f20f47ee"
+worker-rinha  | Worker completed payments with id: "1c21431b-f4d7-4240-b030-78f304d4fba7"
+worker-rinha  | Worker completed payments with id: "d740fc3e-fe83-4bb0-a1c7-bac4c89a648a"
+worker-rinha  | Worker completed payments with id: "eeb8b38a-a5df-498f-9bd7-d78e425ce8e8"
+worker-rinha  | Worker completed payments with id: "2f54a651-8a82-463d-ad82-15991a7bab57"
+worker-rinha  | Worker completed payments with id: "bb409073-45ca-47f4-820e-4bf251d5f36b"
+worker-rinha  | Worker completed payments with id: "fa392bc0-20f5-43a4-aa3b-eaf92c5347e4"
+worker-rinha  | Worker completed payments with id: "4ad94730-d0cc-48a4-8572-690890220aeb"
+worker-rinha  | Worker completed payments with id: "2cc152ff-987c-441b-90bc-4d21a478b4c4"
+worker-rinha  | Worker completed payments with id: "6bea2198-4237-4dfe-82a6-6c7f7f20c814"
+worker-rinha  | Worker completed payments with id: "b111bc2e-dc32-45de-af34-51eceab03222"
+worker-rinha  | Worker completed payments with id: "88069eab-82d5-4de1-ad5e-231c2218ba72"
+worker-rinha  | Worker completed payments with id: "187dcd98-f55e-4476-be22-6a4b923b70aa"
+worker-rinha  | Worker completed payments with id: "70fcce25-aea6-4a18-888f-29e1ee9a436b"
+worker-rinha  | Worker completed payments with id: "aa43b927-c485-4b0f-9116-384d422cc95b"
+worker-rinha  | Worker completed payments with id: "f8c92a04-7553-474a-8119-b2ceaf1437c1"
+worker-rinha  | Worker completed payments with id: "87df100f-f20c-4726-9d62-89d4267ef20b"
+worker-rinha  | Worker completed payments with id: "49b4331f-ce3a-44e5-b0af-99cedd80d927"
+worker-rinha  | Worker completed payments with id: "066ea5e3-ef40-46d6-bdc7-f7c0b71e8a7a"
+worker-rinha  | Worker completed payments with id: "8f95ebd5-6bba-4479-b209-ed8c93cf7fb7"
+worker-rinha  | Worker completed payments with id: "8fca54b5-aaa5-402b-bf03-b7ad794dc02a"
+worker-rinha  | Worker completed payments with id: "8bcf67af-b27b-410b-9fee-0e2068f23494"
+worker-rinha  | Worker completed payments with id: "cfcea4ee-3799-40d7-a9d0-172eadcd801b"
+worker-rinha  | Worker completed payments with id: "b095c6eb-3ea3-4d47-ab43-173d8eb017c2"
+worker-rinha  | Worker completed payments with id: "d099d5c5-6c5a-45eb-9c83-a556dc7d5342"
+worker-rinha  | Worker completed payments with id: "921026ab-3c16-432c-89bb-e407ef7c56d9"
+worker-rinha  | Worker completed payments with id: "3bf842a2-7b37-4387-b859-c45d8099443c"
+worker-rinha  | Worker completed payments with id: "ca7b7870-90af-41c1-b25e-27fb712c7c5e"
+worker-rinha  | Worker completed payments with id: "a4f1a409-e2a9-4dad-a608-65b155dae22b"
+worker-rinha  | Worker completed payments with id: "dc9b5901-a580-4c9c-bb6b-38e6b9821568"
+worker-rinha  | Worker completed payments with id: "75d4df2c-0ec9-4683-9a9a-a5ba9487f459"
+worker-rinha  | Worker completed payments with id: "c136aa70-fc20-4df3-a4d3-37954767fa1f"
+worker-rinha  | Worker completed payments with id: "83ad4e53-337b-4e6d-b764-c46398a38266"
+worker-rinha  | Worker completed payments with id: "cb80e31f-1dcd-4524-85e0-a534594a4439"
+worker-rinha  | Worker completed payments with id: "2808eb41-0af1-4c9b-bc4b-4b3c75541ebe"
+worker-rinha  | Worker completed payments with id: "667342a0-f9f7-477d-b8a6-debd50dd9b92"
+worker-rinha  | Worker completed payments with id: "a018f12e-acc9-4d9c-92e0-f287840ada7b"
+worker-rinha  | Worker completed payments with id: "8932a967-327d-418a-bd7a-584f9737b045"
+worker-rinha  | Worker completed payments with id: "537d2484-50da-4403-897c-aca90b54c1a3"
+worker-rinha  | Worker completed payments with id: "0d6fd013-5a50-4c09-97a2-ae0803a3b8eb"
+worker-rinha  | Worker completed payments with id: "998f385f-c761-4c14-a67c-9ea0a64d15e3"
+worker-rinha  | Worker completed payments with id: "d913d10c-3e38-407c-8d43-db269b25efbf"
+worker-rinha  | Worker completed payments with id: "7f89ccda-2848-4197-a8d1-507a334afb6c"
+worker-rinha  | Worker completed payments with id: "206536f0-4e71-4206-b5d8-08a48056e809"
+worker-rinha  | Worker completed payments with id: "e4e35b16-f790-44bf-9a65-409a5e3067c5"
+worker-rinha  | Worker completed payments with id: "6e451e0b-b7ef-400d-9944-a82d74467f7b"
+worker-rinha  | Worker completed payments with id: "39cbf346-be8d-4d98-823b-add852fb0421"
+worker-rinha  | Worker completed payments with id: "bc7542e2-0889-448c-9c6a-caab1549fb77"
+worker-rinha  | Worker completed payments with id: "de4efbcd-9985-4991-88c9-872aa68fe70d"
+worker-rinha  | Worker completed payments with id: "66e190f1-a9fe-4494-a41d-d8c1daee6e29"
+worker-rinha  | Worker completed payments with id: "a166912f-6af1-46b2-bcde-063b7b4feffd"
+worker-rinha  | Worker completed payments with id: "0d56b74c-5068-4b4b-b7b7-ee1ce772423c"
+worker-rinha  | Worker completed payments with id: "975cc4fc-de84-4315-8d27-4dbd7b872525"
+worker-rinha  | Worker completed payments with id: "447b5090-c4cb-4aaf-96f4-0f3d3e11d4a2"
+worker-rinha  | Worker completed payments with id: "0ff8ae38-5a4f-413f-a6ea-b89d85a76aae"
+worker-rinha  | Worker completed payments with id: "a6b01aed-2f2d-4b85-9248-1a2bd1160f71"
+worker-rinha  | Worker completed payments with id: "fc6c13fa-ed28-48ac-8f29-f8c5f3ce33ba"
+worker-rinha  | Worker completed payments with id: "34bb8655-2a64-4a40-a7d2-58c762466b42"
+worker-rinha  | Worker completed payments with id: "93111de3-218e-4ef2-89d2-898ba0c9020b"
+worker-rinha  | Worker completed payments with id: "73307e92-965c-4e55-b748-abec124e0e75"
+worker-rinha  | Worker completed payments with id: "ce3d355e-76b0-4990-87ce-ff9688865a9d"
+worker-rinha  | Worker completed payments with id: "ada5a29f-c133-46da-8cd6-dd0faaca2805"
+worker-rinha  | Worker completed payments with id: "b3f7ea1a-b5b4-446a-8890-8ddb63b89a2f"
+worker-rinha  | Worker completed payments with id: "f926323a-14b0-4d3f-b8eb-4f4f5ceccf7f"
+worker-rinha  | Worker completed payments with id: "637f5098-af1d-4921-8c0d-8acc096322e6"
+worker-rinha  | Worker completed payments with id: "c7349b0a-b817-4930-a073-81431e731250"
+worker-rinha  | Worker completed payments with id: "9ff0038c-7cba-42d5-8246-420bfe62c1aa"
+worker-rinha  | Worker completed payments with id: "ce3cbf5f-da26-4b14-8189-36590764ba19"
+worker-rinha  | Worker completed payments with id: "6a3ce8da-255d-47e5-8757-4b396f94e6b3"
+worker-rinha  | Worker completed payments with id: "fa5a56de-cf57-416d-b19f-b87b46562cda"
+worker-rinha  | Worker completed payments with id: "4b789197-d6b3-400f-abe1-e1b30843f993"
+worker-rinha  | Worker completed payments with id: "77e8c56d-120f-4805-a493-3f3683663588"
+worker-rinha  | Worker completed payments with id: "dd3ebd92-a440-4184-94d4-89e2db83ceb0"
+worker-rinha  | Worker completed payments with id: "c07e9a42-67ec-4d69-8343-f279025830e3"
+worker-rinha  | Worker completed payments with id: "a1a7a690-9939-43ee-8fac-0911823e1fcb"
+worker-rinha  | Worker completed payments with id: "be647fa4-7dfd-4af6-9ea0-4f28a1e567f5"
+worker-rinha  | Worker completed payments with id: "378e8248-db5f-475c-96d5-57ee1795cfca"
+worker-rinha  | Worker completed payments with id: "924a6df7-a30e-4917-ba30-f7bc35fbb080"
+worker-rinha  | Worker completed payments with id: "ecda4552-3262-42a0-a1c3-6115d021add6"
+worker-rinha  | Worker completed payments with id: "2623c9c6-1fa0-4cfa-9d22-74cfb00951fc"
+worker-rinha  | Worker completed payments with id: "14648459-a1e4-4d7f-8a02-b92484072233"
+worker-rinha  | Worker completed payments with id: "fdff88e7-7334-4d22-aff3-5fc2d7bbb5ad"
+worker-rinha  | Worker completed payments with id: "eb07e0ec-6bd3-45c2-a81e-e9ccbba155d4"
+worker-rinha  | Worker completed payments with id: "788b3c2f-0926-4827-8451-fb9b7f299484"
+worker-rinha  | Worker completed payments with id: "79b11978-e6a7-48bc-b517-b19cb2d5492a"
+worker-rinha  | Worker completed payments with id: "4849d713-3bc6-407e-b8e9-5fcfb22525d0"
+worker-rinha  | Both processors failing, delaying job e2fa766c-dced-45cc-b70d-202272ee8d1b
+worker-rinha  | Both processors failing, delaying job e5af4380-3599-4627-9b31-d98f6249d542
+worker-rinha  | Both processors failing, delaying job 5f9341d9-14d1-499e-b839-81c84ce003fe
+worker-rinha  | Both processors failing, delaying job 611be038-1782-40ed-9588-bac8b05917e0
+worker-rinha  | Worker completed payments with id: "db580ff5-cfa3-4bb1-9243-baa994c7fce1"
+worker-rinha  | Worker completed payments with id: "7315b7bc-e196-4229-8111-fd91afe6c928"
+worker-rinha  | Worker completed payments with id: "417bc07b-e7d8-4735-8de6-a5ccf651541f"
+worker-rinha  | Worker completed payments with id: "4cda16d9-9272-4f35-afa5-53c19198e3bf"
+log truncated at line 1000

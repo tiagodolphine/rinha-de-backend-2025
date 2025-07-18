@@ -4,6 +4,8 @@ A Rinha de Backend é um desafio em que é necessário desenvolver uma solução
 
 **Importante!**: A data limite para submeter seu backend é **2025-08-17 até as 23:59:59**! A previsão para a divulgação dos resultados é para o dia **2025-08-20**.
 
+**A Rinha já está rolando. Acompanhe a [prévia dos resultados](./PREVIA_RESULTADOS.md).**
+
 ![galinha correndo](./misc/imgs/header.jpg)
 
 Se quiser saber mais sobre o espírito da Rinha de Backend, confira os repositórios da [primeira](https://github.com/zanfranceschi/rinha-de-backend-2023-q3) e [segunda](https://github.com/zanfranceschi/rinha-de-backend-2024-q1) edições, [assista a alguns vídeos](https://www.youtube.com/results?search_query=rinha+de+backend), ou [procure na internet](https://www.google.com/search?q=rinha+de+backend) sobre ela – você vai encontrar bastante coisa!
@@ -22,15 +24,13 @@ Nessa terceira edição da Rinha de Backend o desafio é intermediar solicitaç�
 
 Você também pode assistir a [esse vídeo](https://www.youtube.com/watch?v=ldPkTtkJ86k) no YouTube sobre as instruções para participar da Rinha.
 
-[![youtube](./misc/imgs/youtube-thumb.jpg)](https://www.youtube.com/watch?v=ldPkTtkJ86k)
+[![youtube](./misc/imgs/youtube-thumb.png)](https://www.youtube.com/watch?v=ldPkTtkJ86k)
 
 
 ## Pontos em Aberto
 
 O seguinte são questões ainda não foram endereçados ou são pontos em aberto:
-- Automação da execução dos testes
+- Automação decente da execução dos testes
 - Script final do teste
-- Geração dos resultados parciais para que participantes consigam acompanhar seu desempenho
-
 
 *Por favor, contribua com esse evento revisando textos, reportando problemas, bugs e inconsistências, dando sugestões e divulgando. Faça parte dessa comunidade!*
