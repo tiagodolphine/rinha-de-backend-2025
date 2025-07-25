@@ -1,14 +1,19 @@
 package com.dolphs.payment.domain.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import org.springframework.aot.hint.annotation.RegisterReflectionForBinding;
 
 import java.time.OffsetDateTime;
 
+@RegisterReflectionForBinding({OffsetDateTime.class, Payment.class})
 public class Payment {
-    private final double amount;
-    private final String correlationId;
+    private double amount;
+    private String correlationId;
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ssXXX")
-    private final OffsetDateTime requestedAt;
+    private OffsetDateTime requestedAt;
+
+    public Payment() {
+    }
 
     public Payment(double amount, String correlationId, OffsetDateTime requestedAt) {
         this.amount = amount;
@@ -26,5 +31,17 @@ public class Payment {
 
     public OffsetDateTime getRequestedAt() {
         return requestedAt;
+    }
+
+    public void setAmount(double amount) {
+        this.amount = amount;
+    }
+
+    public void setCorrelationId(String correlationId) {
+        this.correlationId = correlationId;
+    }
+
+    public void setRequestedAt(OffsetDateTime requestedAt) {
+        this.requestedAt = requestedAt;
     }
 }

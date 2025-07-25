@@ -8,6 +8,12 @@ public class Summary {
     @JsonIgnore
     private int processorId;
 
+    public Summary(int totalRequests, double totalAmount, int processorId) {
+        this.totalRequests = totalRequests;
+        this.totalAmount = totalAmount;
+        this.processorId = processorId;
+    }
+
     public int getTotalRequests() {
         return totalRequests;
     }

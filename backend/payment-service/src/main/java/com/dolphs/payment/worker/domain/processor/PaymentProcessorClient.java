@@ -1,13 +1,22 @@
 package com.dolphs.payment.worker.domain.processor;
 
 import com.dolphs.payment.domain.model.Payment;
+import com.dolphs.payment.domain.model.PaymentMessage;
 import com.dolphs.payment.domain.model.PaymentTransaction;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.aot.hint.annotation.RegisterReflectionForBinding;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatusCode;
+import org.springframework.http.MediaType;
 import org.springframework.http.client.reactive.ReactorClientHttpConnector;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Mono;
 import reactor.netty.http.client.HttpClient;
+import reactor.netty.resources.ConnectionProvider;
 
 import java.time.Duration;
 import java.time.OffsetDateTime;
@@ -16,7 +25,11 @@ import java.util.concurrent.atomic.AtomicReference;
 @Service
 public class PaymentProcessorClient {
 
-    public static final Duration TIMEOUT = Duration.ofSeconds(2);
+    public static final Duration TIMEOUT = Duration.ofMillis(1500);
+    private static final Logger log = LoggerFactory.getLogger(PaymentProcessorClient.class);
+
+    @Autowired
+    private ObjectMapper objectMapper;
 
     private class Client {
         private final WebClient webClient;
@@ -29,27 +42,48 @@ public class PaymentProcessorClient {
     }
 
     private AtomicReference<Client> client;
+    private Client paymentProcessorDefault;
+    private Client paymentProcessorFallback;
 
-    private final Client paymentProcessorDefault = new Client(WebClient.builder()
-            .baseUrl("http://localhost:8001")
-            .clientConnector(new ReactorClientHttpConnector(
-                    HttpClient.create().responseTimeout(TIMEOUT)
-            )).build()
-            , 1);
-    private final Client paymentProcessorFallback = new Client(WebClient.builder()
-            .baseUrl("http://localhost:8002")
-            .clientConnector(new ReactorClientHttpConnector(
-                    HttpClient.create().responseTimeout(TIMEOUT)
-            ))
-            .build(), 2);
+    public PaymentProcessorClient(@Value("${payment-processor.fallback.url}")
+                                  String paymentProcessorFallbackUrl,
+                                  @Value("${payment-processor.default.url}")
+                                  String paymentProcessorDefaultUrl) {
+        ConnectionProvider connectionProvider = ConnectionProvider.builder("myConnectionPool")
+                .maxConnections(2000)
+                .pendingAcquireMaxCount(2000)
+                .maxIdleTime(Duration.ofSeconds(30))
+                .maxLifeTime(Duration.ofSeconds(1))
+                .evictInBackground(Duration.ofSeconds(10))
+                .build();
 
-    public PaymentProcessorClient() {
+        ConnectionProvider connectionProvider2 = ConnectionProvider.builder("myConnectionPool2")
+                .maxConnections(2000)
+                .pendingAcquireMaxCount(2000)
+                .maxIdleTime(Duration.ofSeconds(30))
+                .maxLifeTime(Duration.ofSeconds(1))
+                .evictInBackground(Duration.ofSeconds(10))
+                .build();
+
+
+        this.paymentProcessorDefault = new Client(WebClient.builder()
+                .baseUrl(paymentProcessorDefaultUrl)
+                .clientConnector(new ReactorClientHttpConnector(
+                        HttpClient.create(connectionProvider).responseTimeout(TIMEOUT)
+                ))
+                .build(), 1);
+        this.paymentProcessorFallback = new Client(WebClient.builder()
+                .baseUrl(paymentProcessorFallbackUrl)
+                .clientConnector(new ReactorClientHttpConnector(
+                        HttpClient.create(connectionProvider2).responseTimeout(TIMEOUT)
+                ))
+                .build(), 2);
         this.client = new AtomicReference<>(paymentProcessorDefault);
     }
 
-    public Mono<Void> switchFallbackClient() {
+
+    public void switchFallbackClient() {
         this.client.set(paymentProcessorFallback);
-        return Mono.empty();
     }
 
     boolean healthCheck() {
@@ -60,31 +94,33 @@ public class PaymentProcessorClient {
 
 
     public void switchDefaultClient() {
-        if (this.client.get().id == paymentProcessorDefault.id) {
-            return;
-        }
         this.client.set(paymentProcessorDefault);
     }
 
-    public Mono<PaymentTransaction> process(Payment payment) {
+    @RegisterReflectionForBinding(Payment.class)
+    public Mono<PaymentTransaction> process(PaymentMessage payment) {
         //POST /payments
         var currentClient = client.get();
+        var value = Mono.just(new Payment(payment.getAmount(), payment.getCorrelationId(), OffsetDateTime.now()));
         return currentClient.webClient
                 .post()
                 .uri("/payments")
-                .bodyValue(payment)
+                .contentType(MediaType.APPLICATION_JSON)
+                .body(value, Payment.class)
                 .retrieve()
-                .onStatus(status -> status.is4xxClientError() || status.is5xxServerError(),
-                        response -> {
-                            // Log the error or handle it as needed
-                            return Mono.error(new RuntimeException("Failed to process payment: " + response.statusCode()));
-                        })
+                .onStatus(HttpStatusCode::is4xxClientError, response -> {
+                    log.error("Error processing payment: {}", response.statusCode());
+                    return Mono.error(new IllegalArgumentException("error " + response.statusCode()));
+                })
                 .toBodilessEntity()
-                .map(r -> new PaymentTransaction(payment.getAmount(), currentClient.id, payment.getRequestedAt()))
+                .map(r -> new PaymentTransaction(payment.getAmount(), currentClient.id, OffsetDateTime.now(), payment.getId()))
+                .onErrorReturn(IllegalArgumentException.class, new PaymentTransaction(payment.getAmount(), -1, OffsetDateTime.now(), payment.getId()))
                 .onErrorResume(e -> {
+                    switchFallbackClient();
+                    log.error("Failed to process payment", e);
                     // handle/log error, return fallback or propagate
                     return Mono.error(e);
-                });
-
+                })
+                .doOnSuccess(t -> switchDefaultClient());
     }
 }

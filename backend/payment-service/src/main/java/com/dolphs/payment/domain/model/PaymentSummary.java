@@ -1,9 +1,9 @@
 package com.dolphs.payment.domain.model;
 
-import com.fasterxml.jackson.annotation.JsonAlias;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.annotation.JsonValue;
+import org.springframework.aot.hint.annotation.RegisterReflectionForBinding;
 
+@RegisterReflectionForBinding
 public class PaymentSummary {
 
     @JsonProperty(value = "default")
