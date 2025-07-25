@@ -20,6 +20,7 @@ import reactor.netty.resources.ConnectionProvider;
 
 import java.time.Duration;
 import java.time.OffsetDateTime;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
 
 @Service
@@ -31,9 +32,13 @@ public class PaymentProcessorClient {
     @Autowired
     private ObjectMapper objectMapper;
 
+    @Value("${processor.retry.max}")
+    private int maxRetries;
+
     private class Client {
         private final WebClient webClient;
         private final int id;
+        private AtomicInteger retry = new AtomicInteger(0);
 
         public Client(WebClient webClient, int id) {
             this.webClient = webClient;
@@ -83,7 +88,9 @@ public class PaymentProcessorClient {
 
 
     public void switchFallbackClient() {
-        this.client.set(paymentProcessorFallback);
+        if(this.client.get().retry.getAndIncrement() > maxRetries) {
+            this.client.set(paymentProcessorFallback);
+        }
     }
 
     boolean healthCheck() {
@@ -94,6 +101,7 @@ public class PaymentProcessorClient {
 
 
     public void switchDefaultClient() {
+        this.paymentProcessorFallback.retry.set(0);
         this.client.set(paymentProcessorDefault);
     }
 

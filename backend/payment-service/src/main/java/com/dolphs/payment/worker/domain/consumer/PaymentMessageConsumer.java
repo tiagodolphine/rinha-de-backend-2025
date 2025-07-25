@@ -33,8 +33,9 @@ public class PaymentMessageConsumer {
         this.paymentProcessor = paymentProcessor;
         this.paymentRepository = paymentRepository;
         try {
-            loop = fetchMessages().subscribeOn(Schedulers.boundedElastic())
-                    .repeatWhen(completed -> completed.delayElements(Duration.ofMillis(10)))
+            loop = fetchMessages()
+                    .subscribeOn(Schedulers.boundedElastic())
+                    .repeatWhen(completed -> completed.delayElements(Duration.ofMillis(5)))
                     .subscribe();
         } catch (Exception e) {
             log.error("Error in message consumer loop", e);
