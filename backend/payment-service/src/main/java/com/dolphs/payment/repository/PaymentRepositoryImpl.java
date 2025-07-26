@@ -148,6 +148,7 @@ public class PaymentRepositoryImpl {
                         .flatMap(paymentMessage -> savePaymentTransaction(paymentMessage, conn))
                         .flatMap(paymentMessage -> delete(paymentMessage.getMessageId(), conn))
                         .then(Mono.from(conn.commitTransaction()))
+                        .onErrorResume(c-> Mono.from(conn.rollbackTransaction()).then(Mono.empty()))
                         .onErrorContinue((e, o) -> {
                             log.error("Error processing chunk", e);
                         }), Connection::close);

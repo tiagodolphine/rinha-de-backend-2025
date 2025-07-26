@@ -70,7 +70,6 @@ public class PaymentProcessorClient {
                 .evictInBackground(Duration.ofSeconds(10))
                 .build();
 
-
         this.paymentProcessorDefault = new Client(WebClient.builder()
                 .baseUrl(paymentProcessorDefaultUrl)
                 .clientConnector(new ReactorClientHttpConnector(
@@ -88,7 +87,7 @@ public class PaymentProcessorClient {
 
 
     public void switchFallbackClient() {
-        if(this.client.get().retry.getAndIncrement() > maxRetries) {
+        if (this.client.get().retry.getAndIncrement() > maxRetries) {
             this.client.set(paymentProcessorFallback);
         }
     }
@@ -121,7 +120,8 @@ public class PaymentProcessorClient {
                     return Mono.error(new IllegalArgumentException("error " + response.statusCode()));
                 })
                 .toBodilessEntity()
-                .map(r -> new PaymentTransaction(payment.getAmount(), currentClient.id, OffsetDateTime.now(), payment.getId()))
+                .flatMap(r -> value)
+                .map(r -> new PaymentTransaction(r.getAmount(), currentClient.id, r.getRequestedAt(), payment.getId()))
                 .onErrorReturn(IllegalArgumentException.class, new PaymentTransaction(payment.getAmount(), -1, OffsetDateTime.now(), payment.getId()))
                 .onErrorResume(e -> {
                     switchFallbackClient();
