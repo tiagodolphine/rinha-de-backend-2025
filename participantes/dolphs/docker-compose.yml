@@ -7,13 +7,13 @@ services:
       - POSTGRES_URL=postgres
       - POSTGRES_PORT=5432
       - POSTGRES_DB=payment_service
-      - POSTGRES_MAX=6
+      - POSTGRES_MAX=3
       - POSTGRES_MIN=0
       - LOGGING_LEVEL_ROOT=OFF
       - LOGGING_LEVEL_COM_DOLPHS=OFF
       - PROCESSOR_RETRY_MAX=1800
-      - CHUNK_SIZE=8
-      - SPRING_SERVER_NETTY_EVENT_LOOP_THREADS=8
+      - CHUNK_SIZE=5
+      - SPRING_SERVER_NETTY_EVENT_LOOP_THREADS=4
       - SPRING_SERVER_COMPRESSION_ENABLED=true
     networks:
       - backend
@@ -21,8 +21,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '0.4'
-          memory: "90MB"
+          cpus: '0.45'
+          memory: "80MB"
     depends_on:
       postgres:
         condition: service_healthy
@@ -36,13 +36,13 @@ services:
       - POSTGRES_URL=postgres
       - POSTGRES_PORT=5432
       - POSTGRES_DB=payment_service
-      - POSTGRES_MAX=6
+      - POSTGRES_MAX=3
       - POSTGRES_MIN=0
       - LOGGING_LEVEL_ROOT=OFF
       - LOGGING_LEVEL_COM_DOLPHS=OFF
       - PROCESSOR_RETRY_MAX=1800
-      - CHUNK_SIZE=8
-      - SPRING_SERVER_NETTY_EVENT_LOOP_THREADS=8
+      - CHUNK_SIZE=5
+      - SPRING_SERVER_NETTY_EVENT_LOOP_THREADS=4
       - SPRING_SERVER_COMPRESSION_ENABLED=true
     networks:
       - backend
@@ -51,12 +51,10 @@ services:
       resources:
         limits:
           cpus: '0.45'
-          memory: "90MB"
+          memory: "80MB"
     depends_on:
       postgres:
         condition: service_healthy
-
-
 
   caddy:
     image: caddy:alpine
@@ -72,9 +70,10 @@ services:
       resources:
         limits:
           cpus: '0.2'
-          memory: "30MB"
+          memory: "50MB"
     networks:
       - backend
+
 #  nginx:
 #    image: nginx:alpine
 #    container_name: nginx-lb
@@ -85,12 +84,11 @@ services:
 #    depends_on:
 #      - payment-service-1
 #      - payment-service-2
-##      - payment-service-3
 #    deploy:
 #      resources:
 #        limits:
 #          cpus: '0.2'
-#          memory: "30MB"
+#          memory: "40MB"
 #    networks:
 #      - backend
 
